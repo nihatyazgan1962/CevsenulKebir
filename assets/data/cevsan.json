@@ -1,0 +1,68 @@
+[
+  {
+    "babNumber": 1,
+    "introTr": "Ey benim ve hadsiz mevcudatın kudret ve azametli Hâlık ve Rezzakı olan Rabb-i Kerimim; senin doksan dokuz esma-i hüsna ve bine baliğ olan sıfat-ı celile ve cemileni ba's-ı rahmet ve vesile-i necat bilerek sen Azîmü'ş-Şan'dan niyaz ediyorum;",
+    "bismillah": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    "arabicTitle": "جَوْشَنُ الْكَبِيرِ",
+    "openingArabic": "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    "openingTr": "Allah'ım! Şu isimlerinin hakkı için Senden niyaz ediyorum:",
+    "items": [
+      { "id": 1, "arabic": "يَا اَللّٰهُ", "reading": "Yâ Allâh", "meaning": "Ey her şeyin gerçek mâbûdu olan Allah" },
+      { "id": 2, "arabic": "يَا رَحْمٰنُ", "reading": "Yâ Rahmân", "meaning": "Ey dünyada yarattıklarının hepsine merhamet eden" },
+      { "id": 3, "arabic": "يَا رَحِيمُ", "reading": "Yâ Rahîm", "meaning": "Ey ahirette sadece müminlere nihayetsiz lütufta bulunan" },
+      { "id": 4, "arabic": "يَا عَلِيمُ", "reading": "Yâ Alîm", "meaning": "Ey her şeyi hakkıyla ve bütün incelikleriyle bilen" },
+      { "id": 5, "arabic": "يَا حَلِيمُ", "reading": "Yâ Halîm", "meaning": "Ey cezalandırmakta acele etmeyip mühlet tanıyan" },
+      { "id": 6, "arabic": "يَا عَظِيمُ", "reading": "Yâ Azîm", "meaning": "Ey sonsuz büyüklük ve azamet sahibi" },
+      { "id": 7, "arabic": "يَا حَكِيمُ", "reading": "Yâ Hakîm", "meaning": "Ey her işi hikmetli ve faydalı olan" },
+      { "id": 8, "arabic": "يَا قَدِيمُ", "reading": "Yâ Kadîm", "meaning": "Ey varlığının başlangıcı olmayan ezeli Zat" },
+      { "id": 9, "arabic": "يَا مُقِيمُ", "reading": "Yâ Mukîm", "meaning": "Ey bütün varlığı ayakta tutan ve devam ettiren" },
+      { "id": 10, "arabic": "يَا كَرِيمُ", "reading": "Yâ Kerîm", "meaning": "Ey lütuf ve ihsanı bol, keremi nihayetsiz olan" }
+    ],
+    "refrainArabic": "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    "refrainTr": "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    "babNumber": 2,
+    "introTr": "Ey mülkün yegâne mâliki ve izzet sahibi Rabbim! Her türlü noksanlıktan münezzeh kemâl sıfatlarınla Senden emân diliyorum;",
+    "bismillah": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    "arabicTitle": "اَلْبَابُ الثَّانِي",
+    "openingArabic": "يَا سَيِّدَ السَّادَاتِ",
+    "openingTr": "Ey efendilerin Efendisi olan Allah'ım:",
+    "items": [
+      { "id": 1, "arabic": "يَا سَيِّدَ السَّادَاتِ", "reading": "Yâ Seyyide's-sâdât", "meaning": "Ey efendilerin Efendisi ve bütün seyyidlerin Rabbi" },
+      { "id": 2, "arabic": "يَا مُجِيبَ الدَّعَوَاتِ", "reading": "Yâ Mûcîbe'd-da'avât", "meaning": "Ey bütün içten dualara icabet edip kabul buyuran" },
+      { "id": 3, "arabic": "يَا رَافِعَ الدَّرَجَاتِ", "reading": "Yâ Râfia'd-deracât", "meaning": "Ey şan ve dereceleri yükselten" },
+      { "id": 4, "arabic": "يَا وَلِيَّ الْحَسَنَاتِ", "reading": "Yâ Veliyye'l-hasenât", "meaning": "Ey bütün iyilik ve güzelliklerin gerçek sahibi" },
+      { "id": 5, "arabic": "يَا غَافِرَ الْخَط۪يٓئَاتِ", "reading": "Yâ Gâfire'l-hatî'ât", "meaning": "Ey günah ve kusurları bağışlayan afüvv Zat" },
+      { "id": 6, "arabic": "يَا مُعْطِيَ الْمَسْئَلَاتِ", "reading": "Yâ Mu'tiye'l-mes'elât", "meaning": "Ey kulların istediği her meşru dileği ihsan eden" },
+      { "id": 7, "arabic": "يَا قَابِلَ التَّوْبَاتِ", "reading": "Yâ Kâbile't-tevbât", "meaning": "Ey samimi tevbeleri kabul eden" },
+      { "id": 8, "arabic": "يَا سَامِعَ الْاَصْوَاتِ", "reading": "Yâ Sâmia'l-asvât", "meaning": "Ey gizli açık bütün yakarışları ve sesleri işiten" },
+      { "id": 9, "arabic": "يَا عَالِمَ الْخَفِيَّاتِ", "reading": "Yâ Âlime'l-hafiyyât", "meaning": "Ey kalplerin en gizli sırlarını eksiksiz bilen" },
+      { "id": 10, "arabic": "يَا دَافِعَ الْبَلِيَّاتِ", "reading": "Yâ Dâfia'l-beliyyât", "meaning": "Ey her türlü belâ, musibet ve felaketi defeden" }
+    ],
+    "refrainArabic": "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    "refrainTr": "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    "babNumber": 3,
+    "introTr": "Ey kerem ve lütfu sonsuz olan Mevlâm! İzzet ve celâline sığınarak Sana yalvarıyorum;",
+    "bismillah": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    "arabicTitle": "اَلْبَابُ الثَّالِثُ",
+    "openingArabic": "يَا خَيْرَ الْغَافِرِينَ",
+    "openingTr": "Ey bağışlayanların en hayırlısı:",
+    "items": [
+      { "id": 1, "arabic": "يَا خَيْرَ الْغَافِرِينَ", "reading": "Yâ Hayra'l-gâfirîn", "meaning": "Ey bağışlayıcıların en hayırlısı" },
+      { "id": 2, "arabic": "يَا خَيْرَ الْفَاتِحِينَ", "reading": "Yâ Hayra'l-fâtihîn", "meaning": "Ey hayır ve bereket kapılarını en güzel açan" },
+      { "id": 3, "arabic": "يَا خَيْرَ النَّاصِرِينَ", "reading": "Yâ Hayra'n-nâsırîn", "meaning": "Ey yardım edenlerin en hayırlısı ve en güçlüsü" },
+      { "id": 4, "arabic": "يَا خَيْرَ الْحَاكِمِينَ", "reading": "Yâ Hayra'l-hâkimîn", "meaning": "Ey hüküm verenlerin en adili" },
+      { "id": 5, "arabic": "يَا خَيْرَ الرَّازِقِينَ", "reading": "Yâ Hayra'r-râzikîn", "meaning": "Ey bütün mahlukatı en güzel rızıklandıran" },
+      { "id": 6, "arabic": "يَا خَيْرَ الْوَارِثِينَ", "reading": "Yâ Hayra'l-vârisîn", "meaning": "Ey her şey yok olduktan sonra baki kalan en hayırlı varis" },
+      { "id": 7, "arabic": "يَا خَيْرَ الْحَامِدِينَ", "reading": "Yâ Hayra'l-hâmidîn", "meaning": "Ey övgüye en lâyık olan ve hamdedenlerin en hayırlısı" },
+      { "id": 8, "arabic": "يَا خَيْرَ الذَّاكِرِينَ", "reading": "Yâ Hayra'z-zâkirîn", "meaning": "Ey Kendisini anan kullarını rahmetiyle ananların en hayırlısı" },
+      { "id": 9, "arabic": "يَا خَيْرَ الْمُنْزِلِينَ", "reading": "Yâ Hayra'l-münzilîn", "meaning": "Ey lütuf ve ikramını en hayırlı şekilde indiren" },
+      { "id": 10, "arabic": "يَا خَيْرَ الْمُحْسِنِينَ", "reading": "Yâ Hayra'l-muhsinîn", "meaning": "Ey sonsuz ihsan ve kerem sahiplerinin en hayırlısı" }
+    ],
+    "refrainArabic": "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    "refrainTr": "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  }
+]

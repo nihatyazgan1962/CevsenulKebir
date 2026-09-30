@@ -1,0 +1,14 @@
+{
+  "name": "cevsan-app",
+  "version": "1.0.0",
+  "description": "Cevsen-ul Kebir Mobil Uygulamasi",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Ready'"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/cli": "^7.0.0",
+    "@capacitor/core": "^7.0.0"
+  }
+}

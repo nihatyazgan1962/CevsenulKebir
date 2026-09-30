@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Cevşen-ül Kebir | Dualar & Okuma</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. GİRİŞ & KAPAK EKRANI -->
+  <div id="coverView" class="cover-screen active">
+    <div class="book-cover-container">
+      <div class="book-3d-wrapper">
+        <div class="book-cover">
+          <img src="cover.jpg" alt="Cevşen-ül Kebir Kapağı" class="cover-image" id="coverImg">
+          <div class="cover-shine"></div>
+        </div>
+      </div>
+      
+      <div class="cover-details">
+        <h1 class="main-title">CEVŞEN-ÜL KEBİR</h1>
+        <p class="sub-title">Münâcât-ı Peygamberî (A.S.M)</p>
+        
+        <div class="cover-actions">
+          <button id="openBookBtn" class="btn primary-btn">
+            <span class="btn-icon">📖</span> Cevşen'i Aç ve Oku
+          </button>
+          <button id="openSettingsBtn" class="btn secondary-btn">
+            <span class="btn-icon">⚙️</span> Ses Seçenekleri
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. OKUMA & ÇİFT SAYFA EKRANI -->
+  <div id="readingView" class="reading-screen">
+    <!-- Risale-i Nur Tarzı Üst Bar -->
+    <header class="app-header risale-header">
+      <div class="header-left">
+        <button id="backToCoverBtn" class="icon-btn" title="Kapağa Dön">
+          <span class="chevron-icon">⌃</span>
+        </button>
+        <div class="risale-title-group">
+          <h2 id="currentBabTitle" class="bab-header-title">Bab 1</h2>
+          <span class="risale-sub">Cevşen-ül Kebir</span>
+        </div>
+      </div>
+
+      <div class="mobile-view-tabs" id="mobileViewTabs">
+        <button type="button" class="tab-btn active" data-view="both">İkisi</button>
+        <button type="button" class="tab-btn" data-view="ar">Arapça</button>
+        <button type="button" class="tab-btn" data-view="tr">Meal</button>
+      </div>
+
+      <div class="header-right">
+        <div class="page-badge-box" id="pageCounterBadge">1 / 100</div>
+        <button id="switchReciterBtn" class="icon-action-btn" title="Ses Seçimi">
+          🎙️
+        </button>
+      </div>
+    </header>
+
+    <!-- Ana Kitap Alanı (İki Sayfalı Görünüm) -->
+    <main class="book-container">
+      <div class="book-spread">
+        
+        <!-- Sol Sayfa: Türkçe Tercüme & Dua -->
+        <section class="page page-left">
+          <div class="page-inner">
+            <div class="page-header">
+              <span class="page-meta">Tercüme & İzah</span>
+              <span class="bab-badge" id="leftBabBadge">#1</span>
+            </div>
+
+            <div class="intro-box" id="introText">
+              Ey benim ve hadsiz mevcudatın kudret ve azametli Hâlık ve Rezzakı olan Rabb-i Kerimim; senin doksan dokuz esma-i hüsna ve bine baliğ olan sıfat-ı celile ve cemileni ba's-ı rahmet ve vesile-i necat bilerek sen Azîmü'ş-Şan'dan niyaz ediyorum;
+            </div>
+
+            <div class="names-translation-list" id="translationList">
+              <!-- JS ile dinamik dolar -->
+            </div>
+
+            <div class="refrain-box refrain-tr" id="refrainTrText">
+              Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!
+            </div>
+
+            <!-- Fotoğraftaki Oval Sayfa Numarası -->
+            <div class="page-number-oval">
+              <span id="leftPageNum">102</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Kitap Ortası Katlantı Çizgisi -->
+        <div class="book-spine"></div>
+
+        <!-- Sağ Sayfa: Orijinal Arapça Metin -->
+        <section class="page page-right">
+          <div class="page-inner">
+            <div class="page-header right-header">
+              <span class="bab-badge" id="rightBabBadge">#1</span>
+              <span class="arabic-header-title">جَوْشَنُ الْكَبِيرِ</span>
+            </div>
+
+            <div class="arabic-bismillah">
+              بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ
+            </div>
+
+            <div class="arabic-opening" id="arabicOpeningText">
+              اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ
+            </div>
+
+            <div class="arabic-names-grid" id="arabicNamesList">
+              <!-- JS ile dinamik dolar -->
+            </div>
+
+            <div class="refrain-box refrain-ar" id="refrainArText">
+              سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ
+            </div>
+
+            <!-- Fotoğraftaki Oval Sayfa Numarası -->
+            <div class="page-number-oval">
+              <span id="rightPageNum">103</span>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    <!-- Alt Okuma & Oynatma Kontrol Barı -->
+    <footer class="player-bar">
+      <div class="player-controls">
+        <button id="prevBabBtn" class="control-btn" title="Önceki Bab">
+          <span>«</span> Önceki
+        </button>
+
+        <button id="playAudioBtn" class="btn play-btn">
+          <span id="playIcon">▶</span> <span id="playText">Seslendir</span>
+        </button>
+
+        <label class="auto-turn-toggle" title="Bab tamamlandığında otomatik sonraki baba geçer">
+          <input type="checkbox" id="autoTurnCheckbox" checked>
+          <span class="toggle-label">Oto</span>
+        </label>
+
+        <button id="nextBabBtn" class="control-btn" title="Sonraki Bab">
+          Sonraki <span>»</span>
+        </button>
+      </div>
+      <div class="status-ticker" id="highlightIndexLabel">Hazır</div>
+    </footer>
+  </div>
+
+  <!-- SES SEÇENEKLERİ MODAL (POPUP) -->
+  <div id="voiceModal" class="modal-overlay">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>🎙️ Seslendirme Seçenekleri</h3>
+        <button id="closeModalBtn" class="close-modal">&times;</button>
+      </div>
+      <p class="modal-desc">Cevşen-ül Kebir tilavetini dinlemek ve satır satır takip etmek istediğiniz kâriyi belirleyin:</p>
+      
+      <div class="reciter-list">
+        <label class="reciter-option selected" data-reciter="İsmail Biçer">
+          <input type="radio" name="reciter" value="İsmail Biçer" checked>
+          <div class="option-info">
+            <span class="option-title">İsmail Biçer</span>
+            <span class="option-desc">Klasik, vakur ve derin tilavet (Hafız & Mevlithan)</span>
+          </div>
+          <span class="check-mark">✓</span>
+        </label>
+
+        <label class="reciter-option" data-reciter="İshak Danış">
+          <input type="radio" name="reciter" value="İshak Danış">
+          <div class="option-info">
+            <span class="option-title">İshak Danış</span>
+            <span class="option-desc">Açık, tane tane ve berrak okuyuş</span>
+          </div>
+          <span class="check-mark">✓</span>
+        </label>
+
+        <label class="reciter-option" data-reciter="Fatih Çollak">
+          <input type="radio" name="reciter" value="Fatih Çollak">
+          <div class="option-info">
+            <span class="option-title">Prof. Dr. Fatih Çollak</span>
+            <span class="option-desc">Diyanet ve kıraat usulü, tecvidli ve akıcı</span>
+          </div>
+          <span class="check-mark">✓</span>
+        </label>
+
+        <label class="reciter-option" data-reciter="Hayri Küçükdeniz (Türkçe Meal)">
+          <input type="radio" name="reciter" value="Hayri Küçükdeniz (Türkçe Meal)">
+          <div class="option-info">
+            <span class="option-title">🎙️ Hayri Küçükdeniz (Türkçe Meal)</span>
+            <span class="option-desc">Tane tane, etkileyici ve berrak profesyonel Türkçe seslendirme</span>
+          </div>
+          <span class="check-mark">✓</span>
+        </label>
+
+        <label class="reciter-option" data-reciter="Arapça Oku + Türkçe Meal (Birlikte)">
+          <input type="radio" name="reciter" value="Arapça Oku + Türkçe Meal (Birlikte)">
+          <div class="option-info">
+            <span class="option-title">📖 Arapça Tilavet + Ardından Türkçe Meali</span>
+            <span class="option-desc">Önce Arapça lafzını okur, ardından hemen Türkçe manasını seslendirir</span>
+          </div>
+          <span class="check-mark">✓</span>
+        </label>
+
+        <label class="reciter-option" data-reciter="Yapay Zeka (TTS)">
+          <input type="radio" name="reciter" value="Yapay Zeka (TTS)">
+          <div class="option-info">
+            <span class="option-title">🤖 Yapay Zeka Cihaz Sentezleyicisi</span>
+            <span class="option-desc">Cihazınızın sistem sesiyle doğal okuma</span>
+          </div>
+          <span class="check-mark">✓</span>
+        </label>
+      </div>
+
+      <div class="voice-mode-section">
+        <label class="mode-label"><strong>Okuma Modu:</strong></label>
+        <div class="mode-toggles">
+          <button type="button" class="mode-btn active" data-mode="alternate">1 Bab Arapça, 1 Bab Türkçe</button>
+          <button type="button" class="mode-btn" data-mode="ar">Sadece Arapça</button>
+          <button type="button" class="mode-btn" data-mode="tr">Sadece Türkçe</button>
+          <button type="button" class="mode-btn" data-mode="both">İkisi Birlikte</button>
+        </div>
+      </div>
+
+      <div class="modal-footer modal-actions-grid">
+        <button id="cancelModalBtn" class="btn secondary-btn modal-cancel-btn">✕ Kapat</button>
+        <button id="applyVoiceBtn" class="btn primary-btn modal-save-btn">✓ Seçimi Kaydet ve Kapat</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

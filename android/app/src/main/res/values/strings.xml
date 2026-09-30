@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Cevsenul Kebir</string>
+    <string name="title_activity_main">Cevsenul Kebir</string>
+    <string name="package_name">com.cevsan.kebir</string>
+    <string name="custom_url_scheme">com.cevsan.kebir</string>
+</resources>

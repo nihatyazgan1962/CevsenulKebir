@@ -1,0 +1,1308 @@
+:root {
+  --bg-dark: #120507;
+  --primary-red: #5c1118;
+  --secondary-red: #3b0b10;
+  --crimson-accent: #8b1d24;
+  --accent-gold: #d4af37;
+  --gold-glow: #fae19c;
+  --paper-bg-left: #fcf9f2;
+  --paper-bg-right: #fbf6ec;
+  --paper-border: #e3d7bf;
+  --text-dark: #222222;
+  --text-muted: #555555;
+  --arabic-red: #b71c1c;
+  --highlight-bg: #fff0ed;
+  --highlight-border: #d32f2f;
+  --highlight-shadow: 0 0 16px rgba(211, 47, 47, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--bg-dark);
+  color: #ffffff;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* 1. KAPAK GÖRÜNÜMÜ - KIRMIZI CİLT TEMASI */
+.cover-screen {
+  display: none;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at center, #4a0e14 0%, #150305 100%);
+  padding: 24px;
+}
+
+.cover-screen.active {
+  display: flex;
+}
+
+.book-cover-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 520px;
+  width: 100%;
+  animation: fadeIn 0.8s ease-out;
+}
+
+.book-3d-wrapper {
+  perspective: 1200px;
+  margin-bottom: 28px;
+}
+
+.book-cover {
+  width: 320px;
+  height: 460px;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 
+    -12px 18px 30px rgba(0, 0, 0, 0.7),
+    0 0 25px rgba(197, 160, 89, 0.3);
+  border: 3px solid var(--accent-gold);
+  transform: rotateY(-8deg) rotateX(4deg);
+  transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.5s ease;
+}
+
+.book-cover:hover {
+  transform: rotateY(0deg) rotateX(0deg) scale(1.02);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.8),
+    0 0 35px rgba(232, 212, 158, 0.5);
+}
+
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.cover-shine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 60%);
+  pointer-events: none;
+}
+
+.cover-details {
+  text-align: center;
+}
+
+.main-title {
+  font-family: 'Cinzel', serif;
+  font-size: 2.2rem;
+  letter-spacing: 3px;
+  color: var(--gold-glow);
+  text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  margin-bottom: 6px;
+}
+
+.sub-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  color: #a8c4b2;
+  margin-bottom: 18px;
+}
+
+.reciter-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(197, 160, 89, 0.4);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  color: #f1ebd8;
+  margin-bottom: 24px;
+}
+
+.cover-actions {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* BUTONLAR */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.primary-btn {
+  background: linear-gradient(135deg, #d4a742 0%, #b88b2a 100%);
+  color: #111e15;
+  box-shadow: 0 4px 15px rgba(212, 167, 66, 0.35);
+}
+
+.primary-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(212, 167, 66, 0.55);
+}
+
+.secondary-btn {
+  background: rgba(255, 255, 255, 0.1);
+  color: #f0f0f0;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(8px);
+}
+
+.secondary-btn:hover {
+  background: rgba(255, 255, 255, 0.18);
+  border-color: var(--accent-gold);
+}
+
+.small-btn {
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  background: rgba(197, 160, 89, 0.2);
+  color: var(--gold-glow);
+  border: 1px solid var(--accent-gold);
+  border-radius: 6px;
+}
+
+.small-btn:hover {
+  background: var(--accent-gold);
+  color: #111e15;
+}
+
+/* 2. OKUMA EKRANI & ÇİFT SAYFA */
+.reading-screen {
+  display: none;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #1a241e;
+}
+
+.reading-screen.active {
+  display: flex;
+}
+
+.app-header {
+  height: 60px;
+  background: linear-gradient(135deg, var(--secondary-red) 0%, var(--primary-red) 100%);
+  border-bottom: 2px solid var(--accent-gold);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  color: var(--gold-glow);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.icon-btn span {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.bab-header-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.15rem;
+  color: #ffffff;
+}
+
+.header-center .voice-indicator {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: #d1ded6;
+  background: rgba(0,0,0,0.25);
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.pulse-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #66bb6a;
+  border-radius: 50%;
+  box-shadow: 0 0 6px #66bb6a;
+}
+
+.pulse-dot.playing {
+  animation: pulse 1s infinite alternate;
+  background-color: #ffb300;
+  box-shadow: 0 0 10px #ffb300;
+}
+
+/* KİTAP SAYFALARI - DESENLİ KENARLAR & TEZHİP BORDER */
+.book-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  overflow-y: auto;
+  perspective: 1600px;
+}
+
+.book-spread {
+  display: flex;
+  width: 100%;
+  max-width: 1120px;
+  min-height: 720px;
+  background: #fbf6ec;
+  border-radius: 12px;
+  box-shadow: 
+    0 20px 45px rgba(0,0,0,0.6),
+    inset 0 0 20px rgba(184, 139, 42, 0.25);
+  border: 5px double #8c6d31;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s ease;
+}
+
+/* Sayfa Çevirme Animasyon Sınıfları */
+.book-spread.turning-next {
+  animation: pageFlipForward 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.book-spread.turning-prev {
+  animation: pageFlipBackward 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.page {
+  flex: 1;
+  padding: 28px 32px;
+  color: var(--text-dark);
+  position: relative;
+}
+
+/* Sol Fihrist Kulakçıkları (Fotoğraftaki Orijinal Dizin Sekmeleri) */
+.book-index-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-right: -4px;
+  z-index: 5;
+  user-select: none;
+}
+
+.index-tab {
+  width: 44px;
+  height: 60px;
+  border-radius: 8px 0 0 8px;
+  box-shadow: -3px 3px 6px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.68rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-right: none;
+}
+
+.index-tab span {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  white-space: nowrap;
+}
+
+.index-tab:hover {
+  width: 52px;
+}
+
+.tab-green {
+  background-color: #c7dbcc;
+  color: #1a4329;
+}
+
+.tab-red {
+  background-color: #e5b4b4;
+  color: #5c1118;
+}
+
+.tab-white {
+  background-color: #f0ebe1;
+  color: #4a4030;
+}
+
+.tab-pink {
+  background-color: #ebd0d0;
+  color: #632222;
+}
+
+.index-tab.tab-active {
+  width: 54px;
+  background: linear-gradient(135deg, #d4af37 0%, #b8860b 100%);
+  color: #ffffff;
+  box-shadow: -5px 4px 10px rgba(184, 134, 11, 0.5);
+  border: 1px solid #7a5806;
+  border-right: none;
+}
+
+/* Sayfa Kenarlarında Fotoğraftaki Kesintisiz Çiçekli Bordür (Floral Border) */
+.page-inner {
+  height: 100%;
+  padding: 22px 24px;
+  position: relative;
+  background-color: #faf5e8;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+  /* Fotoğraftaki gibi Dış İnce Kırmızı/Altın Hat */
+  border: 3px solid #8b1d24;
+  outline: 2px solid #d4af37;
+  outline-offset: -5px;
+
+  /* İç Çift Kırmızı Cetvel (Yazı Alanı Sınırı) */
+  box-shadow: 
+    inset 0 0 0 16px #faf5e8,
+    inset 0 0 0 18px #a8232b,
+    inset 0 0 0 20px #faf5e8,
+    inset 0 0 0 21px #d4af37,
+    0 10px 25px rgba(0,0,0,0.25);
+}
+
+/* Üst ve Alt Kesintisiz Çiçekli Bordür Şeridi */
+.page-inner::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  height: 18px;
+  background-image: url('floral_border.jpg');
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  opacity: 0.9;
+  pointer-events: none;
+  border-bottom: 1.5px solid #a8232b;
+}
+
+.page-inner::after {
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+  right: 3px;
+  height: 18px;
+  background-image: url('floral_border.jpg');
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  opacity: 0.9;
+  pointer-events: none;
+  border-top: 1.5px solid #a8232b;
+}
+
+/* Sol ve Sağ Dikey Çiçekli Bordür Şeritleri */
+.page-left .page-inner,
+.page-right .page-inner {
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-image: url('floral_border.jpg') 30 stretch;
+}
+
+.page-left {
+  background-color: #faf5e8;
+  border-right: 1px solid rgba(0,0,0,0.08);
+}
+
+.page-right {
+  background-color: #faf4e6;
+}
+
+.book-spine {
+  width: 20px;
+  background: linear-gradient(to right, 
+    rgba(0,0,0,0.25) 0%, 
+    rgba(0,0,0,0.03) 50%, 
+    rgba(0,0,0,0.25) 100%);
+  position: relative;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.4);
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--paper-border);
+  padding-bottom: 8px;
+  margin-bottom: 18px;
+}
+
+.page-meta {
+  font-family: 'Cinzel', serif;
+  font-size: 0.85rem;
+  color: #7a6a4b;
+  letter-spacing: 1px;
+}
+
+.bab-badge {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  color: var(--primary-green);
+  font-size: 1.1rem;
+}
+
+.arabic-header-title {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--primary-green);
+}
+
+.arabic-bismillah {
+  font-family: 'Amiri', serif;
+  font-size: 2.1rem;
+  text-align: center;
+  color: #b71c1c; /* Fotoğraftaki gibi kırmızı hat sanatı */
+  margin: 10px 0 14px 0;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1.5px solid rgba(184, 139, 42, 0.4);
+  padding-bottom: 8px;
+}
+
+.intro-box {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: #2b2b2b;
+  margin-bottom: 16px;
+  padding: 10px 14px;
+  background: rgba(184, 139, 42, 0.08);
+  border-radius: 6px;
+  border-left: 3px solid #b88b2a;
+  text-align: center;
+}
+
+.arabic-opening {
+  font-family: 'Amiri', serif;
+  font-size: 1.7rem;
+  text-align: center;
+  color: var(--primary-red);
+  margin-bottom: 14px;
+  direction: rtl;
+  font-weight: bold;
+}
+
+/* Arapça ve Türkçe Karşılıklı Eşleşen Liste Blokları */
+.names-translation-list,
+.arabic-names-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Satır Satır Okuma & Tam Karşı Karşıya Eşit Hizalama */
+.trans-item, .arabic-item {
+  transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+  border-radius: 8px;
+  min-height: 58px; /* Tam karşılıklı eşit satır yüksekliği */
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.trans-item {
+  padding: 6px 12px;
+  border-left: 3px solid transparent;
+  justify-content: flex-start;
+}
+
+.trans-item.active {
+  background-color: var(--highlight-bg);
+  border-left: 4px solid var(--highlight-border);
+  box-shadow: var(--highlight-shadow);
+  transform: none; /* Sarsıntıyı önlemek için transform kaldırıldı */
+}
+
+.trans-item .item-id {
+  font-weight: 700;
+  color: #b71c1c; /* Fotoğraftaki gibi kırmızı madde numaraları */
+  margin-right: 8px;
+  font-size: 1.1rem;
+}
+
+/* Fotoğraftaki Alt Oval Sayfa Numarası Rozeti */
+.page-number-oval {
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.page-number-oval span {
+  display: inline-block;
+  padding: 2px 14px;
+  border-radius: 20px;
+  border: 1.5px solid #2b2b2b;
+  font-family: 'Cinzel', serif;
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #2b2b2b;
+  background-color: #faf5e8;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.trans-item .item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.trans-item .item-reading {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #3b3b3b;
+  line-height: 1.2;
+}
+
+.trans-item .item-meaning {
+  font-size: 0.92rem;
+  color: #242424;
+  margin-top: 2px;
+  line-height: 1.25;
+}
+
+.arabic-item {
+  justify-content: center; /* ORTALI */
+  gap: 12px;
+  padding: 6px 16px;
+  direction: rtl;
+  text-align: center;
+  border: 1px solid transparent;
+}
+
+.arabic-item.active {
+  background-color: #fff0eb;
+  border: 1.5px solid #d32f2f;
+  box-shadow: 0 0 18px rgba(211, 47, 47, 0.35);
+  transform: none; /* Sarsıntıyı önlemek için transform kaldırıldı */
+}
+
+.arabic-star {
+  color: #a38548;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.arabic-item.active .arabic-star {
+  color: #d32f2f;
+}
+
+.arabic-text {
+  font-family: 'Amiri', serif;
+  font-size: 1.95rem;
+  font-weight: 700;
+  color: #1e1e1e;
+  text-align: center;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.arabic-item.active .arabic-text {
+  color: #d32f2f !important; /* OKUNAN YERLER KIRMIZI HARFLER */
+  text-shadow: 0 0 12px rgba(211, 47, 47, 0.4);
+}
+
+.refrain-box {
+  margin-top: 18px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px dashed var(--accent-gold);
+}
+
+.refrain-tr {
+  background-color: #f1ebd8;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--primary-green);
+  font-weight: 600;
+}
+
+.refrain-ar {
+  background-color: #f5eedb;
+  font-family: 'Amiri', serif;
+  font-size: 1.55rem;
+  text-align: center;
+  color: var(--arabic-red);
+  direction: rtl;
+  font-weight: bold;
+}
+
+/* 3. ALT OYNATICI ÇUBUĞU */
+.player-bar {
+  background: linear-gradient(135deg, var(--secondary-red) 0%, var(--primary-red) 100%);
+  border-top: 2px solid var(--accent-gold);
+  padding: 12px 24px;
+}
+
+.player-controls {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.control-btn {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(197, 160, 89, 0.5);
+  color: var(--gold-glow);
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.control-btn:hover:not(:disabled) {
+  background: rgba(197, 160, 89, 0.3);
+}
+
+.control-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.playback-btn-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.play-btn {
+  background: linear-gradient(135deg, #d4a742 0%, #b88b2a 100%);
+  color: #111e15;
+  font-size: 1rem;
+  padding: 10px 24px;
+  border-radius: 30px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+}
+
+.play-btn.playing {
+  background: linear-gradient(135deg, #e65100 0%, #bf360c 100%);
+  color: #ffffff;
+}
+
+.reading-progress {
+  font-size: 0.9rem;
+  color: #ded7c3;
+  font-weight: 500;
+}
+
+.status-ticker {
+  font-size: 0.78rem;
+  color: var(--gold-glow);
+  text-align: center;
+  margin-top: 4px;
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.icon-action-btn {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid var(--accent-gold);
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.05rem;
+}
+
+/* 4. MODAL DIALOG */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.82);
+  backdrop-filter: blur(6px);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  overflow-y: auto;
+}
+
+.modal-overlay.active {
+  display: flex;
+}
+
+.modal-content {
+  background: #fbf7ee;
+  color: #222222;
+  max-width: 420px;
+  width: 100%;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  border: 2px solid var(--accent-gold);
+  padding: 16px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+  animation: slideUp 0.25s ease-out;
+  overflow-y: auto;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--paper-border);
+  padding-bottom: 6px;
+}
+
+.modal-header h3 {
+  font-family: 'Cinzel', serif;
+  color: var(--primary-green);
+  font-size: 1.15rem;
+}
+
+.close-modal {
+  background: #ebe0cb;
+  border: 1px solid #c9b48c;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 1.3rem;
+  line-height: 1;
+  color: #444444;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-actions-grid {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.modal-cancel-btn {
+  flex: 1;
+  padding: 9px 8px;
+  font-size: 0.85rem;
+  background: #e0d7c3;
+  color: #333333;
+  border: 1px solid #b8ab8d;
+}
+
+.modal-save-btn {
+  flex: 2;
+  padding: 9px 8px;
+  font-size: 0.85rem;
+}
+
+.modal-desc {
+  font-size: 0.82rem;
+  color: #666666;
+  margin-bottom: 12px;
+}
+
+.reciter-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.reciter-option {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  background: #ffffff;
+  border: 1.5px solid #ded6c3;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.reciter-option input {
+  display: none;
+}
+
+.reciter-option.selected {
+  border-color: var(--accent-gold);
+  background-color: #fff9ea;
+  box-shadow: 0 2px 8px rgba(197, 160, 89, 0.2);
+}
+
+.option-info {
+  flex: 1;
+}
+
+.option-title {
+  display: block;
+  font-weight: 700;
+  color: var(--primary-green);
+  font-size: 1rem;
+}
+
+.option-desc {
+  display: block;
+  font-size: 0.8rem;
+  color: #666666;
+  margin-top: 2px;
+}
+
+.check-mark {
+  color: var(--accent-gold);
+  font-weight: bold;
+  font-size: 1.2rem;
+  opacity: 0;
+}
+
+.reciter-option.selected .check-mark {
+  opacity: 1;
+}
+
+.voice-mode-section {
+  margin: 16px 0;
+  padding: 12px;
+  background: #f1ebd8;
+  border-radius: 8px;
+  border: 1px solid var(--paper-border);
+}
+
+.mode-label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--primary-green);
+  margin-bottom: 8px;
+}
+
+.mode-toggles {
+  display: flex;
+  gap: 8px;
+}
+
+.mode-btn {
+  flex: 1;
+  padding: 8px 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1.5px solid var(--accent-gold);
+  background: #ffffff;
+  color: var(--primary-green);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.mode-btn.active {
+  background: var(--primary-green);
+  color: #ffffff;
+  border-color: var(--primary-green);
+}
+
+.mode-btn:hover:not(.active) {
+  background: #fff9ea;
+}
+
+.full-width {
+  width: 100%;
+}
+
+/* Mobil Görünüm Sekmeleri */
+.mobile-view-tabs {
+  display: none;
+  gap: 3px;
+  background: rgba(0, 0, 0, 0.35);
+  padding: 2px;
+  border-radius: 8px;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.mobile-view-tabs .tab-btn {
+  background: transparent;
+  border: none;
+  color: #d1ded6;
+  font-size: 0.72rem;
+  padding: 4px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.mobile-view-tabs .tab-btn.active {
+  background: var(--accent-gold);
+  color: #111e15;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Risale-i Nur Tarzı Üst Bar Stili */
+.risale-header {
+  background: #212121 !important;
+  border-bottom: 2px solid #b8860b !important;
+  color: #eeeeee;
+  height: 48px;
+  padding: 0 10px;
+}
+
+.risale-title-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.risale-title-group .bab-header-title {
+  font-size: 0.88rem;
+  color: #ffffff;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.risale-sub {
+  font-size: 0.65rem;
+  color: #c5a059;
+  letter-spacing: 0.5px;
+}
+
+.page-badge-box {
+  background: #333333;
+  color: #f5eedb;
+  border: 1px solid #777777;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.chevron-icon {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+/* RESPONSIVE - TELEFON EKRANINA TAM UYUM (RISALE-I NUR BENZERİ TAM EKRAN) */
+@media (max-width: 850px) {
+  .mobile-view-tabs {
+    display: flex;
+  }
+
+  .app-header {
+    height: 46px;
+    padding: 0 6px;
+  }
+
+  .header-left {
+    gap: 6px;
+  }
+
+  .header-center {
+    display: none;
+  }
+
+  .book-container {
+    padding: 1px;
+    width: 100%;
+    max-width: 100vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .book-spread {
+    flex-direction: column;
+    min-height: auto;
+    width: 99%;
+    max-width: 400px;
+    border-width: 1.5px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    margin: 0 auto;
+    background-color: #f7f1e1; /* Risale-i Nur kitap kağıdı rengi */
+  }
+
+  .book-spine {
+    display: none;
+  }
+
+  .page {
+    padding: 1px 1px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .page-inner {
+    padding: 6px 5px;
+    margin: 0;
+    box-shadow: 
+      inset 0 0 0 3px #faf5e8,
+      inset 0 0 0 4.5px #a8232b,
+      inset 0 0 0 5.5px #d4af37;
+    border-left: 2px solid transparent !important;
+    border-right: 2px solid transparent !important;
+  }
+
+  .page-header {
+    margin-bottom: 4px;
+    padding-bottom: 2px;
+  }
+
+  .page-meta {
+    font-size: 0.65rem;
+  }
+
+  .bab-badge {
+    font-size: 0.78rem;
+  }
+
+  .arabic-bismillah {
+    font-size: 1.25rem;
+    margin: 1px 0 4px 0;
+    padding-bottom: 2px;
+  }
+
+  .arabic-opening {
+    font-size: 1.05rem;
+    margin-bottom: 4px;
+  }
+
+  .intro-box {
+    font-size: 0.75rem;
+    line-height: 1.28;
+    padding: 4px 5px;
+    margin-bottom: 4px;
+  }
+
+  .trans-item, .arabic-item {
+    min-height: 32px;
+    margin-bottom: 3px;
+    padding: 2px 5px;
+  }
+
+  .trans-item .item-reading {
+    font-size: 0.82rem;
+  }
+
+  .trans-item .item-meaning {
+    font-size: 0.72rem;
+    line-height: 1.12;
+  }
+
+  .arabic-text {
+    font-size: 1.22rem;
+  }
+
+  .arabic-star {
+    font-size: 0.72rem;
+  }
+
+  .refrain-box {
+    margin-top: 6px;
+    padding: 4px 6px;
+  }
+
+  .refrain-tr {
+    font-size: 0.75rem;
+    line-height: 1.2;
+  }
+
+  .refrain-ar {
+    font-size: 1.0rem;
+  }
+
+  .page-number-oval {
+    margin-top: 6px;
+  }
+
+  .page-number-oval span {
+    font-size: 0.7rem;
+    padding: 1px 8px;
+  }
+
+  /* Alt Kontrol Barı */
+  .player-bar {
+    padding: 6px 8px;
+    position: sticky;
+    bottom: 0;
+    z-index: 99;
+  }
+
+  .player-controls {
+    gap: 4px;
+    justify-content: space-around;
+  }
+
+  .control-btn {
+    padding: 6px 8px;
+    font-size: 0.75rem;
+  }
+
+  .play-btn {
+    padding: 7px 12px;
+    font-size: 0.82rem;
+  }
+
+  .reading-progress {
+    display: none;
+  }
+
+  .auto-turn-toggle {
+    font-size: 0.72rem;
+    padding: 3px 6px;
+  }
+
+  /* Kapak Ekranı */
+  .book-cover {
+    width: 220px;
+    height: 320px;
+  }
+
+  .main-title {
+    font-size: 1.6rem;
+  }
+
+  .sub-title {
+    font-size: 0.88rem;
+  }
+
+  .cover-actions {
+    flex-direction: column;
+    width: 100%;
+    max-width: 260px;
+  }
+
+  .cover-actions .btn {
+    width: 100%;
+  }
+}
+
+
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.4); }
+}
+
+/* Sayfa Çevirme Animasyonları - Risale-i Nur Tarzı Gerçekçi 3D Kitap Sayfa Çevirme & Kıvrılma Efekti (Page Curl 3D) */
+@keyframes pageFlipForward {
+  0% {
+    transform-origin: left center;
+    transform: perspective(1200px) rotateY(0deg) translateX(0);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  }
+  35% {
+    transform-origin: left center;
+    transform: perspective(1200px) rotateY(-40deg) skewY(-2deg) scale(0.96);
+    box-shadow: -15px 8px 30px rgba(0,0,0,0.45);
+    filter: brightness(0.94);
+  }
+  70% {
+    transform-origin: left center;
+    transform: perspective(1200px) rotateY(-18deg) skewY(-1deg) scale(0.98);
+    opacity: 0.85;
+    box-shadow: -20px 10px 35px rgba(0,0,0,0.5);
+  }
+  100% {
+    transform-origin: left center;
+    transform: perspective(1200px) rotateY(0deg) scale(1) translateX(0);
+    opacity: 1;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  }
+}
+
+@keyframes pageFlipBackward {
+  0% {
+    transform-origin: right center;
+    transform: perspective(1200px) rotateY(0deg) translateX(0);
+  }
+  35% {
+    transform-origin: right center;
+    transform: perspective(1200px) rotateY(40deg) skewY(2deg) scale(0.96);
+    box-shadow: 15px 8px 30px rgba(0,0,0,0.45);
+    filter: brightness(0.94);
+  }
+  70% {
+    transform-origin: right center;
+    transform: perspective(1200px) rotateY(18deg) skewY(1deg) scale(0.98);
+    opacity: 0.85;
+    box-shadow: 20px 10px 35px rgba(0,0,0,0.5);
+  }
+  100% {
+    transform-origin: right center;
+    transform: perspective(1200px) rotateY(0deg) scale(1) translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Otomatik Çevir Switch */
+.auto-turn-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 1px solid rgba(197, 160, 89, 0.4);
+  font-size: 0.85rem;
+  color: var(--gold-glow);
+  user-select: none;
+}
+
+.auto-turn-toggle input {
+  accent-color: var(--accent-gold);
+  cursor: pointer;
+}
