@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Stop"
 
 Write-Host "=========================================" -ForegroundColor Yellow
 Write-Host "   CEVSENUL KEBIR APK OLUSTURUCU BASLADI   " -ForegroundColor Yellow
@@ -15,12 +15,22 @@ if (-not (Test-Path $wwwDir)) {
     New-Item -ItemType Directory -Path $wwwDir -Force | Out-Null
 }
 
-$filesToCopy = @("index.html", "app.js", "style.css", "favicon.png")
+$filesToCopy = @("index.html", "app.js", "style.css", "favicon.png", "cover.jpg", "floral_border.jpg", "tezhip.jpg")
 foreach ($file in $filesToCopy) {
     $src = Join-Path $rootDir $file
     if (Test-Path $src) {
         Copy-Item -Path $src -Destination (Join-Path $wwwDir $file) -Force
     }
+}
+
+# Audio klasörünü www içine eksiksiz kopyala
+$audioSrc = Join-Path $rootDir "audio"
+$audioDest = Join-Path $wwwDir "audio"
+if (Test-Path $audioSrc) {
+    if (-not (Test-Path $audioDest)) {
+        New-Item -ItemType Directory -Path $audioDest -Force | Out-Null
+    }
+    Copy-Item -Path "$audioSrc\*" -Destination $audioDest -Recurse -Force
 }
 
 # 2. Android SDK ve Ortam Değişkenlerini Ayarla
@@ -65,6 +75,23 @@ if ($LASTEXITCODE -eq 0) {
         Write-Host "  Konum: $targetApk ($sizeMB MB)                        " -ForegroundColor Green
         Write-Host "========================================================
 " -ForegroundColor Green
+
+        # WhatsApp ve İndirme Linki Oluşturma
+        Write-Host "[*] APK indirme linki olusturuluyor ve WhatsApp'a aktariliyor..." -ForegroundColor Cyan
+        try {
+            $resp = curl.exe -s -F "file=@$targetApk" https://tmpfiles.org/api/v1/upload
+            $json = $resp | ConvertFrom-Json
+            if ($json -and $json.data -and $json.data.url) {
+                $dlUrl = $json.data.url -replace "tmpfiles.org/", "tmpfiles.org/dl/"
+                $msg = [System.Uri]::EscapeDataString("Cevşen-ül Kebir APK Hazır! Aşağıdaki bağlantıdan doğrudan indirebilirsiniz:`n`n$dlUrl")
+                $waUrl = "https://api.whatsapp.com/send/?phone=905072502500&text=$msg&type=phone_number&app_absent=0"
+                Write-Host "İndirme Linki: $dlUrl" -ForegroundColor Yellow
+                Write-Host "WhatsApp Penceresi Aciliyor..." -ForegroundColor Green
+                Start-Process $waUrl
+            }
+        } catch {
+            Write-Host "Link olusturulamadi: $_" -ForegroundColor DarkGray
+        }
     } else {
         Write-Host "
 HATA: APK dosyasi ciktisi bulunamadi." -ForegroundColor Red

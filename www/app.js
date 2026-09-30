@@ -219,31 +219,1998 @@ const cevsanData = [
     ],
     refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
     refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 11,
+    introTr: "Ey darlıkta ve ferahlıkta kulunun yegâne sığınağı olan Mevlâm;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ الْحَادِيَ عَشَرَ",
+    openingArabic: "يَا عُدَّت۪ي عِنْدَ شِدَّت۪ي",
+    openingTr: "Ey zorluk ve sıkıntı anında yegâne dayanağım:",
+    items: [
+      { id: 1, arabic: "يَا عُدَّت۪ي عِنْدَ شِدَّت۪ي", reading: "Yâ Uddetî inde şiddetî", meaning: "Ey şiddet ve zorluk anında en güvenilir hazırlığım" },
+      { id: 2, arabic: "يَا رَجَٓائ۪ي عِنْدَ مُص۪يبَت۪ي", reading: "Yâ Recâî inde musîbetî", meaning: "Ey musibet ve keder anında yegâne ümidim" },
+      { id: 3, arabic: "يَا مُونِس۪ي عِنْدَ وَحْشَت۪ي", reading: "Yâ Mûnisî inde vahşetî", meaning: "Ey yalnızlık ve ıssızlıkta en yakın dostum ve tesellicim" },
+      { id: 4, arabic: "يَا صَاحِب۪ي عِنْدَ غُرْبَت۪ي", reading: "Yâ Sâhibî inde gurbetî", meaning: "Ey gurbet diyarında gerçek ve vefalı yoldaşım" },
+      { id: 5, arabic: "يَا وَلِيّ۪ي عِنْدَ نِعْمَت۪ي", reading: "Yâ Veliyyî inde ni'metî", meaning: "Ey nimet ve ihsanlarımın hakiki velisi" },
+      { id: 6, arabic: "يَا كَاشِف۪ي عِنْدَ كُرْبَت۪ي", reading: "Yâ Kâşifî inde kurbetî", meaning: "Ey sıkıntı ve kederlerimi dağıtan ferahlatıcım" },
+      { id: 7, arabic: "يَا غِيَاث۪ي عِنْدَ اضْطِرَار۪ي", reading: "Yâ Gıyâsî inde'dtırârî", meaning: "Ey çaresiz ve muztar kaldığımda imdadıma koşan" },
+      { id: 8, arabic: "يَا دَل۪يل۪ي عِنْدَ حَيْرَت۪ي", reading: "Yâ Delîlî inde hayretî", meaning: "Ey şaşkınlık ve tereddütte yol gösteren rehberim" },
+      { id: 9, arabic: "يَا غَنِيّ۪ي عِنْدَ افْتِقَار۪ي", reading: "Yâ Ganiyyî inde'ftikârî", meaning: "Ey fakirlik ve muhtaçlık anında zenginlik kaynağım" },
+      { id: 10, arabic: "يَا مَلْجَا۪ي عِنْدَ كُلِّ هَمٍّ", reading: "Yâ Melceî inde külli hemm", meaning: "Ey her türlü keder ve sarsıntıda sığındığım melceim" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 12,
+    introTr: "Ey gizli ve aşikâr her şey ilmi dahilinde olan Âlim-i Zülcelal;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ الثَّانِيَ عَشَرَ",
+    openingArabic: "يَا عَلَّامَ الْغُيُوبِ",
+    openingTr: "Ey bütün gaybları hakkıyla bilen Allah'ım:",
+    items: [
+      { id: 1, arabic: "يَا عَلَّامَ الْغُيُوبِ", reading: "Yâ Allâme'l-guyûb", meaning: "Ey görünmeyen bütün gayb alemlerini hakkıyla bilen" },
+      { id: 2, arabic: "يَا غَفَّارَ الذُّنُوبِ", reading: "Yâ Gaffâra'z-zünûb", meaning: "Ey günahları ve kusurları tekrar tekrar bağışlayan" },
+      { id: 3, arabic: "يَا سَتَّارَ الْعُيُوبِ", reading: "Yâ Settâra'l-uyûb", meaning: "Ey ayıp ve kusurları lütfuyla örten" },
+      { id: 4, arabic: "يَا كَشَّافَ الْكُرُوبِ", reading: "Yâ Keşşâfe'l-kürûb", meaning: "Ey en ağır gam, keder ve sıkıntıları kaldıran" },
+      { id: 5, arabic: "يَا مُقَلِّبَ الْقُلُوبِ", reading: "Yâ Mukallibe'l-kulûb", meaning: "Ey kalpleri dilediği yöne çeviren ve hidayet veren" },
+      { id: 6, arabic: "يَا طَب۪يبَ الْقُلُوبِ", reading: "Yâ Tabîbe'l-kulûb", meaning: "Ey manevi dertli ve yaralı kalplerin yegâne tabibi" },
+      { id: 7, arabic: "يَا مُنَوِّرَ الْقُلُوبِ", reading: "Yâ Münevvira'l-kulûb", meaning: "Ey kalpleri marifet ve iman nuruyla aydınlatan" },
+      { id: 8, arabic: "يَا اَن۪يسَ الْقُلُوبِ", reading: "Yâ Enîse'l-kulûb", meaning: "Ey zikriyle gönüllere ünsiyet ve huzur veren" },
+      { id: 9, arabic: "يَا مُفَرِّجَ الْهُمُومِ", reading: "Yâ Müferrice'l-hümûm", meaning: "Ey dert ve tasaları ferahlığa tebdil eden" },
+      { id: 10, arabic: "يَا مُنَفِّسَ الْغُمُومِ", reading: "Yâ Müneffise'l-gumûm", meaning: "Ey iç sıkıntılarını ve gam bulutlarını dağıtan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 13,
+    introTr: "Ey kemal sıfatlarıyla muttasıf ve noksan sıfatlardan münezzeh Rabbim;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ الثَّالِثَ عَشَرَ",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden istiyorum:",
+    items: [
+      { id: 1, arabic: "يَا جَل۪يلُ", reading: "Yâ Celîl", meaning: "Ey azamet ve celâlet sahibi yüce Zat" },
+      { id: 2, arabic: "يَا جَم۪يلُ", reading: "Yâ Cemîl", meaning: "Ey nihayetsiz güzellik ve kemal sahibi" },
+      { id: 3, arabic: "يَا وَك۪يلُ", reading: "Yâ Vekîl", meaning: "Ey Kendisine güvenilip işler havale edilen en hayırlı vekil" },
+      { id: 4, arabic: "يَا كَف۪يلُ", reading: "Yâ Kefîl", meaning: "Ey yarattıklarının her ihtiyacına kefil olan" },
+      { id: 5, arabic: "يَا دَل۪يلُ", reading: "Yâ Delîl", meaning: "Ey hak ve hakikate ulaştıran en doğru rehber" },
+      { id: 6, arabic: "يَا مُق۪يلُ", reading: "Yâ Mukîl", meaning: "Ey tövbe edenlerin hatalarını ve düşüşlerini bağışlayan" },
+      { id: 7, arabic: "يَا خَب۪يرُ", reading: "Yâ Habîr", meaning: "Ey her şeyin iç yüzünden ve gizlisinden haberdar olan" },
+      { id: 8, arabic: "يَا لَط۪يفُ", reading: "Yâ Latîf", meaning: "Ey lütfu ve keremi pek ince ve sınırsız olan" },
+      { id: 9, arabic: "يَا عَز۪يزُ", reading: "Yâ Azîz", meaning: "Ey mutlak galip ve asla mağlup edilemeyen" },
+      { id: 10, arabic: "يَا مَل۪يكُ", reading: "Yâ Melîk", meaning: "Ey mülkün yegâne sultanı ve mutlak hükümdarı" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 14,
+    introTr: "Ey çaresizlerin yardımcısı ve hak yolun hidayet rehberi Mevlâm;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ الرَّابِعَ عَشَرَ",
+    openingArabic: "يَا دَل۪يلَ الْمُتَحَيِّر۪ينَ",
+    openingTr: "Ey şaşkınlık içinde kalanların rehberi olan Allah'ım:",
+    items: [
+      { id: 1, arabic: "يَا دَل۪يلَ الْمُتَحَيِّر۪ينَ", reading: "Yâ Delîle'l-mütehayyirîn", meaning: "Ey şaşkınlık ve tereddüt içinde bocalayanların yol göstericisi" },
+      { id: 2, arabic: "يَا غِيَاثَ الْمُسْتَغ۪يث۪ينَ", reading: "Yâ Gıyâse'l-müstegîsîn", meaning: "Ey feryad edip yardım dileyenlerin imdadına koşan" },
+      { id: 3, arabic: "يَا صَر۪يخَ الْمُسْتَصْرِخ۪ينَ", reading: "Yâ Sarîha'l-müstasrihîn", meaning: "Ey feryad-ı figan edenlerin sesini işitip kurtaran" },
+      { id: 4, arabic: "يَا جَارَ الْمُسْتَج۪ير۪ينَ", reading: "Yâ Câra'l-müstecîrîn", meaning: "Ey Kendisine sığınanlara eman ve himaye veren" },
+      { id: 5, arabic: "يَا اَمَانَ الْخَٓائِف۪ينَ", reading: "Yâ Emâne'l-hâifîn", meaning: "Ey korku ve dehşet içinde kalanların sığınağı" },
+      { id: 6, arabic: "يَا عَوْنَ الْمُؤْمِن۪ينَ", reading: "Yâ Avne'l-mü'minîn", meaning: "Ey inanan kullarının gerçek ve daimi yardımcısı" },
+      { id: 7, arabic: "يَا رَاحِمَ الْمَسَاك۪ينَ", reading: "Yâ Râhime'l-mesâkîn", meaning: "Ey biçare ve yoksullara sonsuz merhamet eden" },
+      { id: 8, arabic: "يَا مَلْجَاَ الْعَاص۪ينَ", reading: "Yâ Melcee'l-âsîn", meaning: "Ey pişman olup tövbe eden günahkarların sığınağı" },
+      { id: 9, arabic: "يَا غَافِرَ الْمُذْنِب۪ينَ", reading: "Yâ Gâfire'l-müznibîn", meaning: "Ey günah işleyenleri mağfiretiyle bağışlayan" },
+      { id: 10, arabic: "يَا مُج۪يبَ دَعْوَةِ الْمُضْطَرّ۪ينَ", reading: "Yâ Mûcîbe da'veti'l-muztarrîn", meaning: "Ey darda kalmışların içten dualarına icabet eden" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 15,
+    introTr: "Ey kerem ve ihsan deryası olan, lütufları nihayetsiz Rabbim;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ الْخَامِسَ عَشَرَ",
+    openingArabic: "يَا ذَا الْجُودِ وَالْاِحْسَانِ",
+    openingTr: "Ey cömertlik ve sonsuz ihsan sahibi olan Allah'ım:",
+    items: [
+      { id: 1, arabic: "يَا ذَا الْجُودِ وَالْاِحْسَانِ", reading: "Yâ Ze'l-cûdi ve'l-ihsân", meaning: "Ey sınırsız cömertlik ve hesapsız ihsan sahibi" },
+      { id: 2, arabic: "يَا ذَا الْفَضْلِ وَالْاِمْتِنَانِ", reading: "Yâ Ze'l-fadli ve'l-imtinân", meaning: "Ey üstün fazilet ve minnetsiz lütuf sahibi" },
+      { id: 3, arabic: "يَا ذَا الْاَمْنِ وَالْاَمَانِ", reading: "Yâ Ze'l-emni ve'l-emân", meaning: "Ey huzur, emniyet ve korkulardan kurtuluş bahşeden" },
+      { id: 4, arabic: "يَا ذَا الْقُدْسِ وَالسُّبْحَانِ", reading: "Yâ Ze'l-kudsi ve's-sübhân", meaning: "Ey her türlü kusur ve noksanlıktan pâk ve mukaddes olan" },
+      { id: 5, arabic: "يَا ذَا الْحِكْمَةِ وَالْبَيَانِ", reading: "Yâ Ze'l-hikmeti ve'l-beyân", meaning: "Ey mutlak hikmet ve her şeyi açıklayan ilim sahibi" },
+      { id: 6, arabic: "يَا ذَا الرَّحْمَةِ وَالرِّضْوَانِ", reading: "Yâ Ze'r-rahmeti ve'r-rıdvân", meaning: "Ey sonsuz rahmet ve rıza-i ilahi sahibi" },
+      { id: 7, arabic: "يَا ذَا الْحُجَّةِ وَالْبُرْهَانِ", reading: "Yâ Ze'l-hucceti ve'l-bürhân", meaning: "Ey kesin hüccet ve apaçık delillerin sahibi" },
+      { id: 8, arabic: "يَا ذَا الْعَظَمَةِ وَالسُّلْطَانِ", reading: "Yâ Ze'l-azameti ve's-sultân", meaning: "Ey eşsiz büyüklük ve sarsılmaz saltanat sahibi" },
+      { id: 9, arabic: "يَا ذَا الرَّاْفَةِ وَالْمُسْتَعَانِ", reading: "Yâ Ze'r-ra'feti ve'l-müsteân", meaning: "Ey pek şefkatli olan ve her işte Kendisinden yardım istenen" },
+      { id: 10, arabic: "يَا ذَا الْعَفْوِ وَالْغُفْرَانِ", reading: "Yâ Ze'l-afvi ve'l-gufrân", meaning: "Ey affı ve mağfireti nihayetsiz olan Mevlâm" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 16,
+    introTr: "Ey bütün alemlerin terbiyecisi ve yegâne mâliki olan Rabbim;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ السَّادِسَ عَشَرَ",
+    openingArabic: "يَا مَنْ هُوَ رَبُّ كُلِّ شَيْءٍ",
+    openingTr: "Ey her şeyin hakiki Rabbi olan Allah'ım:",
+    items: [
+      { id: 1, arabic: "يَا مَنْ هُوَ رَبُّ كُلِّ شَيْءٍ", reading: "Yâ Men hüve Rabbu külli şey'", meaning: "Ey var olan her şeyin yegâne Rabbi ve Terbiyecisi" },
+      { id: 2, arabic: "يَا مَنْ هُوَ اِلٰهُ كُلِّ شَيْءٍ", reading: "Yâ Men hüve İlâhu külli şey'", meaning: "Ey her şeyin Kendisine ibadet ettiği gerçek İlah" },
+      { id: 3, arabic: "يَا مَنْ هُوَ خَالِقُ كُلِّ شَيْءٍ", reading: "Yâ Men hüve Hâliku külli şey'", meaning: "Ey zerrelerden kürelere her şeyi yaratan Yaratıcı" },
+      { id: 4, arabic: "يَا مَنْ هُوَ صَانِعُ كُلِّ شَيْءٍ", reading: "Yâ Men hüve Sâni'u külli şey'", meaning: "Ey her şeyi sanatlı ve hikmetli var eden Sanatkar" },
+      { id: 5, arabic: "يَا مَنْ هُوَ قَبْلَ كُلِّ شَيْءٍ", reading: "Yâ Men hüve kable külli şey'", meaning: "Ey her şeyden önce var olan Ezeli Zat" },
+      { id: 6, arabic: "يَا مَنْ هُوَ بَعْدَ كُلِّ شَيْءٍ", reading: "Yâ Men hüve ba'de külli şey'", meaning: "Ey her şey yok olduktan sonra baki kalan Ebedi Zat" },
+      { id: 7, arabic: "يَا مَنْ هُوَ فَوْقَ كُلِّ شَيْءٍ", reading: "Yâ Men hüve fevka külli şey'", meaning: "Ey kudret ve azametiyle her şeyden pek yüce olan" },
+      { id: 8, arabic: "يَا مَنْ هُوَ عَالِمٌ بِكُلِّ شَيْءٍ", reading: "Yâ Men hüve âlimün bikülli şey'", meaning: "Ey her şeyin bütün hallerini eksiksiz bilen" },
+      { id: 9, arabic: "يَا مَنْ هُوَ قَادِرٌ عَلٰى كُلِّ شَيْءٍ", reading: "Yâ Men hüve kâdirun alâ külli şey'", meaning: "Ey her şeye gücü yeten mutlak Kadir" },
+      { id: 10, arabic: "يَا مَنْ هُوَ يَبْقٰى وَيَفْنٰى كُلُّ شَيْءٍ", reading: "Yâ Men hüve yebkâ ve yefnâ küllü şey'", meaning: "Ey her şey faniliğe mahkumken baki kalan Zülcelal" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 17,
+    introTr: "Ey güven veren, koruyup gözeten Hafîz ve Müheymin Rabbim;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ السَّابِعَ عَشَرَ",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin tecellileriyle Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا مُؤْمِنُ", reading: "Yâ Mü'min", meaning: "Ey gönüllere iman nuru veren ve kullarını emniyette kılan" },
+      { id: 2, arabic: "يَا مُهَيْمِنُ", reading: "Yâ Müheymin", meaning: "Ey her şeyi görüp gözeten ve koruyucusu olan" },
+      { id: 3, arabic: "يَا مُكَوِّنُ", reading: "Yâ Mükevvin", meaning: "Ey bütün kainatı ve varlıkları yoktan var edip şekillendiren" },
+      { id: 4, arabic: "يَا مُلَقِّنُ", reading: "Yâ Mülakkin", meaning: "Ey kullarına hakkı ve doğruyu ilham buyuran" },
+      { id: 5, arabic: "يَا مُبَيِّنُ", reading: "Yâ Mübeyyin", meaning: "Ey hakikatleri apaçık ortaya koyan ve açıklayan" },
+      { id: 6, arabic: "يَا مُهَوِّنُ", reading: "Yâ Mühevvin", meaning: "Ey en güç ve zor işleri kudretiyle kolaylaştıran" },
+      { id: 7, arabic: "يَا مُمَكِّنُ", reading: "Yâ Mümekkin", meaning: "Ey mülkünde dilediğini güç ve iktidar sahibi kılan" },
+      { id: 8, arabic: "يَا مُزَيِّنُ", reading: "Yâ Müzeyyin", meaning: "Ey kainatı ve mahlukatı süsleyip güzelleştiren" },
+      { id: 9, arabic: "يَا مُعْلِنُ", reading: "Yâ Mu'lin", meaning: "Ey azamet ve kudret delillerini her zerrede ilan eden" },
+      { id: 10, arabic: "يَا مُقَسِّمُ", reading: "Yâ Mukassim", meaning: "Ey rızıkları ve nasipleri adaletle paylaştıran" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 18,
+    introTr: "Ey saltanatı zeval bulmayan ve varlığı ebedi olan Hükümran;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ الثَّامِنَ عَشَرَ",
+    openingArabic: "يَا مَنْ هُوَ ف۪ي مُلْكِهِ مُق۪يمٌ",
+    openingTr: "Ey mülkünde daim ve kaim olan Allah'ım:",
+    items: [
+      { id: 1, arabic: "يَا مَنْ هُوَ ف۪ي مُلْكِهِ مُق۪يمٌ", reading: "Yâ Men hüve fî mülkihî mukîm", meaning: "Ey saltanat ve mülkünde daimi ve kaim olan" },
+      { id: 2, arabic: "يَا مَنْ هُوَ ف۪ي عِزِّهِ قَد۪يمٌ", reading: "Yâ Men hüve fî izzihî kadîm", meaning: "Ey izzet ve yüceliğinde ezeli olan" },
+      { id: 3, arabic: "يَا مَنْ هُوَ ف۪ي سُلْطَانِهِ عَظ۪يمٌ", reading: "Yâ Men hüve fî sultânihî azîm", meaning: "Ey hakimiyet ve hükümranlığında pek yüce olan" },
+      { id: 4, arabic: "يَا مَنْ هُوَ عَلٰى عِبَادِهِ رَح۪يمٌ", reading: "Yâ Men hüve alâ ibâdihî rahîm", meaning: "Ey aciz kullarına karşı pek merhametli olan" },
+      { id: 5, arabic: "يَا مَنْ هُوَ بِكُلِّ شَيْءٍ عَل۪يمٌ", reading: "Yâ Men hüve bikülli şey'in alîm", meaning: "Ey zerrelerden kürelere her şeyi hakkıyla bilen" },
+      { id: 6, arabic: "يَا مَنْ هُوَ بِمَنْ عَصَاهُ حَل۪يمٌ", reading: "Yâ Men hüve bimen asâhu halîm", meaning: "Ey Kendisine isyan edenlere dahi mühlet tanıyıp yumuşak davranan" },
+      { id: 7, arabic: "يَا مَنْ هُوَ بِمَنْ رَجَاهُ كَر۪يمٌ", reading: "Yâ Men hüve bimen recâhu kerîm", meaning: "Ey Kendisine ümit bağlayanlara pek cömert ve ikramkar olan" },
+      { id: 8, arabic: "يَا مَنْ هُوَ ف۪ي صُنْعِهِ حَك۪يمٌ", reading: "Yâ Men hüve fî sun'ihî hakîm", meaning: "Ey yarattığı her sanatta sonsuz hikmet sahibi olan" },
+      { id: 9, arabic: "يَا مَنْ هُوَ ف۪ي حِكْمَتِهِ لَط۪يفٌ", reading: "Yâ Men hüve fî hikmetihî latîf", meaning: "Ey hikmetli tecellilerinde lütuf ve ihsanı gizli olan" },
+      { id: 10, arabic: "يَا مَنْ هُوَ ف۪ي لُطْفِهِ خَب۪يرٌ", reading: "Yâ Men hüve fî lutfihî habîr", meaning: "Ey bütün lütuflarında kullarının inceliklerini bilen" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 19,
+    introTr: "Ey kapısından başka sığınılacak melce bulunmayan Kerim Rabbim;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ التَّاسِعَ عَشَرَ",
+    openingArabic: "يَا مَنْ لَا يُرْجٰى اِلَّا فَضْلُهُ",
+    openingTr: "Ey yalnız fazl ve keremi umulan Allah'ım:",
+    items: [
+      { id: 1, arabic: "يَا مَنْ لَا يُرْجٰى اِلَّا فَضْلُهُ", reading: "Yâ Men lâ yürcâ illâ fadluh", meaning: "Ey ancak lütuf ve keremi umulan" },
+      { id: 2, arabic: "يَا مَنْ لَا يُسْئَلُ اِلَّا عَفْوُهُ", reading: "Yâ Men lâ yüs'elü illâ afvuh", meaning: "Ey sadece af ve mağfireti dilenen" },
+      { id: 3, arabic: "يَا مَنْ لَا يُنْظَرُ اِلَّا بِرُّهُ", reading: "Yâ Men lâ yünzaru illâ birruh", meaning: "Ey yalnız iyilik ve ihsanı gözlenen" },
+      { id: 4, arabic: "يَا مَنْ لَا يُخَافُ اِلَّا عَدْلُهُ", reading: "Yâ Men lâ yühâfü illâ adluh", meaning: "Ey sadece mutlak adaletinden korkulan" },
+      { id: 5, arabic: "يَا مَنْ لَا يَدُومُ اِلَّا مُلْكُهُ", reading: "Yâ Men lâ yedûmü illâ mülküh", meaning: "Ey hükümranlığından başka hiçbir mülk baki kalmayan" },
+      { id: 6, arabic: "يَا مَنْ لَا سُلْطَانَ اِلَّا سُلْطَانُهُ", reading: "Yâ Men lâ sultâne illâ sultânuh", meaning: "Ey mutlak hakimiyetinden başka egemenlik olmayan" },
+      { id: 7, arabic: "يَا مَنْ وَسِعَتْ كُلَّ شَيْءٍ رَحْمَتُهُ", reading: "Yâ Men vesiat külle şey'in rahmetüh", meaning: "Ey rahmeti bütün kainatı ve mahlukatı kuşatan" },
+      { id: 8, arabic: "يَا مَنْ سَبَقَتْ رَحْمَتُهُ غَضَبَهُ", reading: "Yâ Men sebekat rahmetühü gadabeh", meaning: "Ey merhameti gazabının önüne geçen" },
+      { id: 9, arabic: "يَا مَنْ اَحَاطَ بِكُلِّ شَيْءٍ عِلْمُهُ", reading: "Yâ Men ehâta bikülli şey'in ilmüh", meaning: "Ey ilmi var olan her şeyi kuşatan" },
+      { id: 10, arabic: "يَا مَنْ لَيْسَ اَحَدٌ مِثْلَهُ", reading: "Yâ Men leyse ehadün misleh", meaning: "Ey dengi, benzeri ve şeriki bulunmayan Ehad" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 20,
+    introTr: "Ey dertlilerin derdine derman olan Halık-ı Kerim;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ الْعِشْرُونَ",
+    openingArabic: "يَا فَارِجَ الْهَمِّ",
+    openingTr: "Ey kederleri dağıtan, gamları gideren Allah'ım:",
+    items: [
+      { id: 1, arabic: "يَا فَارِجَ الْهَمِّ", reading: "Yâ Fârice'l-hemm", meaning: "Ey gam ve kederleri lütfuyla ferahlatan" },
+      { id: 2, arabic: "يَا كَاشِفَ الْغَمِّ", reading: "Yâ Kâşife'l-gamm", meaning: "Ey iç sıkıntılarını ve keder bulutlarını kaldıran" },
+      { id: 3, arabic: "يَا غَافِرَ الذَّنْبِ", reading: "Yâ Gâfire'z-zenb", meaning: "Ey günahları affedip örten" },
+      { id: 4, arabic: "يَا قَابِلَ التَّوْبِ", reading: "Yâ Kâbile't-tevb", meaning: "Ey samimi pişmanlıkları ve tevbeleri kabul eden" },
+      { id: 5, arabic: "يَا خَالِقَ الْخَلْقِ", reading: "Yâ Hâlika'l-halk", meaning: "Ey bütün yaratılmışları kusursuz yaratan" },
+      { id: 6, arabic: "يَا صَادِقَ الْوَعْدِ", reading: "Yâ Sâdika'l-va'd", meaning: "Ey vaadinde ve ahdinde sadık olan" },
+      { id: 7, arabic: "يَا مُوفِيَ الْعَهْدِ", reading: "Yâ Mûfiye'l-ahd", meaning: "Ey sözünü ve vaadini eksiksiz yerine getiren" },
+      { id: 8, arabic: "يَا عَالِمَ السِّرِّ", reading: "Yâ Âlime's-sırr", meaning: "Ey kalplerin en derin sırlarını bilen" },
+      { id: 9, arabic: "يَا فَالِقَ الْحَبِّ", reading: "Yâ Fâlika'l-habb", meaning: "Ey tohumları yarıp içinden hayat filizleri çıkaran" },
+      { id: 10, arabic: "يَا رَازِقَ الْاَنَامِ", reading: "Yâ Râzika'l-enâm", meaning: "Ey bütün canlıların ve insanların rızkını bahşeden" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 21,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 21. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 21",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 2, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 3, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 4, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 5, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 6, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 7, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 8, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 9, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 10, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 22,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 22. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 22",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 2, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 3, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 4, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 5, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 6, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 7, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 8, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 9, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 10, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 23,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 23. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 23",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 2, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 3, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 4, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 5, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 6, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 7, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 8, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 9, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 10, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 24,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 24. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 24",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 2, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 3, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 4, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 5, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 6, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 7, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 8, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 9, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 10, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 25,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 25. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 25",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 2, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 3, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 4, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 5, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 6, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 7, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 8, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 9, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 10, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 26,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 26. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 26",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 2, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 3, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 4, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 5, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 6, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 7, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 8, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 9, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 10, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 27,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 27. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 27",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 2, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 3, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 4, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 5, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 6, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 7, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 8, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 9, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 10, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 28,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 28. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 28",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 2, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 3, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 4, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 5, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 6, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 7, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 8, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 9, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 10, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 29,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 29. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 29",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 2, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 3, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 4, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 5, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 6, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 7, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 8, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 9, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 10, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 30,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 30. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 30",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 2, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 3, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 4, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 5, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 6, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 7, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 8, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 9, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 10, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 31,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 31. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 31",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 2, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 3, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 4, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 5, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 6, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 7, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 8, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 9, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 10, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 32,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 32. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 32",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 2, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 3, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 4, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 5, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 6, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 7, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 8, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 9, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 10, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 33,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 33. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 33",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 2, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 3, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 4, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 5, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 6, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 7, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 8, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 9, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 10, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 34,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 34. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 34",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 2, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 3, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 4, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 5, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 6, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 7, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 8, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 9, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 10, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 35,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 35. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 35",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 2, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 3, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 4, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 5, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 6, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 7, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 8, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 9, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 10, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 36,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 36. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 36",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 2, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 3, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 4, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 5, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 6, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 7, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 8, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 9, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 10, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 37,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 37. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 37",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 2, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 3, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 4, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 5, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 6, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 7, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 8, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 9, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 10, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 38,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 38. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 38",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 2, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 3, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 4, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 5, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 6, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 7, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 8, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 9, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 10, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 39,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 39. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 39",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 2, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 3, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 4, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 5, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 6, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 7, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 8, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 9, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 10, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 40,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 40. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 40",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 2, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 3, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 4, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 5, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 6, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 7, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 8, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 9, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 10, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 41,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 41. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 41",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 2, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 3, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 4, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 5, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 6, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 7, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 8, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 9, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 10, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 42,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 42. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 42",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 2, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 3, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 4, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 5, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 6, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 7, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 8, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 9, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 10, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 43,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 43. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 43",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 2, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 3, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 4, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 5, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 6, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 7, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 8, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 9, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 10, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 44,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 44. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 44",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 2, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 3, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 4, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 5, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 6, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 7, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 8, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 9, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 10, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 45,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 45. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 45",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 2, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 3, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 4, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 5, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 6, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 7, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 8, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 9, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 10, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 46,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 46. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 46",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 2, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 3, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 4, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 5, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 6, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 7, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 8, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 9, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 10, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 47,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 47. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 47",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 2, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 3, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 4, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 5, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 6, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 7, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 8, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 9, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 10, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 48,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 48. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 48",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 2, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 3, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 4, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 5, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 6, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 7, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 8, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 9, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 10, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 49,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 49. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 49",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 2, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 3, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 4, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 5, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 6, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 7, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 8, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 9, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 10, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 50,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 50. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 50",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 2, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 3, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 4, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 5, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 6, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 7, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 8, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 9, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 10, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 51,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 51. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 51",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 2, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 3, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 4, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 5, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 6, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 7, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 8, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 9, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 10, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 52,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 52. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 52",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 2, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 3, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 4, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 5, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 6, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 7, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 8, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 9, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 10, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 53,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 53. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 53",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 2, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 3, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 4, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 5, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 6, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 7, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 8, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 9, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 10, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 54,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 54. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 54",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 2, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 3, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 4, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 5, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 6, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 7, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 8, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 9, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 10, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 55,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 55. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 55",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 2, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 3, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 4, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 5, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 6, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 7, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 8, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 9, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 10, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 56,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 56. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 56",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 2, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 3, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 4, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 5, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 6, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 7, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 8, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 9, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 10, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 57,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 57. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 57",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 2, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 3, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 4, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 5, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 6, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 7, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 8, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 9, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 10, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 58,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 58. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 58",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 2, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 3, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 4, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 5, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 6, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 7, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 8, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 9, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 10, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 59,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 59. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 59",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 2, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 3, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 4, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 5, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 6, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 7, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 8, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 9, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 10, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 60,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 60. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 60",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 2, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 3, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 4, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 5, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 6, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 7, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 8, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 9, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 10, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 61,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 61. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 61",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 2, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 3, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 4, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 5, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 6, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 7, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 8, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 9, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 10, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 62,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 62. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 62",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 2, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 3, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 4, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 5, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 6, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 7, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 8, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 9, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 10, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 63,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 63. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 63",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 2, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 3, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 4, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 5, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 6, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 7, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 8, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 9, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 10, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 64,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 64. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 64",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 2, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 3, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 4, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 5, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 6, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 7, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 8, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 9, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 10, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 65,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 65. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 65",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 2, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 3, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 4, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 5, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 6, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 7, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 8, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 9, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 10, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 66,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 66. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 66",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 2, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 3, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 4, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 5, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 6, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 7, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 8, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 9, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 10, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 67,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 67. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 67",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 2, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 3, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 4, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 5, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 6, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 7, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 8, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 9, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 10, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 68,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 68. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 68",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 2, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 3, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 4, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 5, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 6, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 7, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 8, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 9, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 10, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 69,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 69. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 69",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 2, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 3, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 4, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 5, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 6, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 7, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 8, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 9, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 10, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 70,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 70. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 70",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 2, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 3, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 4, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 5, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 6, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 7, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 8, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 9, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 10, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 71,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 71. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 71",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 2, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 3, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 4, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 5, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 6, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 7, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 8, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 9, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 10, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 72,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 72. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 72",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 2, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 3, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 4, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 5, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 6, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 7, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 8, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 9, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 10, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 73,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 73. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 73",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 2, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 3, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 4, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 5, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 6, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 7, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 8, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 9, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 10, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 74,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 74. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 74",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 2, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 3, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 4, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 5, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 6, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 7, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 8, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 9, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 10, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 75,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 75. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 75",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 2, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 3, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 4, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 5, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 6, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 7, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 8, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 9, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 10, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 76,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 76. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 76",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 2, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 3, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 4, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 5, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 6, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 7, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 8, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 9, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 10, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 77,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 77. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 77",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 2, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 3, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 4, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 5, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 6, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 7, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 8, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 9, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 10, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 78,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 78. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 78",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 2, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 3, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 4, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 5, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 6, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 7, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 8, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 9, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 10, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 79,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 79. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 79",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 2, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 3, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 4, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 5, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 6, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 7, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 8, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 9, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 10, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 80,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 80. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 80",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 2, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 3, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 4, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 5, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 6, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 7, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 8, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 9, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 10, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 81,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 81. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 81",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 2, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 3, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 4, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 5, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 6, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 7, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 8, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 9, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 10, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 82,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 82. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 82",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 2, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 3, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 4, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 5, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 6, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 7, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 8, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 9, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 10, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 83,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 83. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 83",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 2, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 3, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 4, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 5, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 6, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 7, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 8, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 9, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 10, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 84,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 84. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 84",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 2, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 3, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 4, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 5, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 6, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 7, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 8, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 9, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 10, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 85,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 85. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 85",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 2, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 3, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 4, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 5, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 6, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 7, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 8, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 9, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 10, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 86,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 86. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 86",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 2, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 3, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 4, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 5, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 6, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 7, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 8, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 9, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 10, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 87,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 87. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 87",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 2, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 3, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 4, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 5, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 6, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 7, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 8, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 9, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 10, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 88,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 88. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 88",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 2, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 3, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 4, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 5, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 6, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 7, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 8, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 9, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 10, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 89,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 89. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 89",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 2, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 3, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 4, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 5, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 6, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 7, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 8, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 9, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 10, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 90,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 90. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 90",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 2, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 3, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 4, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 5, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 6, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 7, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 8, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 9, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 10, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 91,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 91. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 91",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 2, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 3, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 4, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 5, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 6, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 7, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 8, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 9, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 10, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 92,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 92. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 92",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 2, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 3, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 4, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 5, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 6, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 7, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 8, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 9, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 10, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 93,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 93. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 93",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 2, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 3, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 4, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 5, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 6, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 7, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 8, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 9, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 10, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 94,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 94. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 94",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 2, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 3, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 4, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 5, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 6, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 7, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 8, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 9, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 10, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 95,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 95. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 95",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 2, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 3, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 4, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 5, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 6, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 7, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 8, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 9, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 10, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 96,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 96. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 96",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 2, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" },
+      { id: 3, arabic: "يَا بَدِيُّ", reading: "Yâ Bediyy", meaning: "Ey her şeyi örneksiz ve benzersiz yaratan" },
+      { id: 4, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 5, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 6, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 7, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 8, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 9, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 10, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 97,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 97. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 97",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا قَوِيُّ", reading: "Yâ Kaviyy", meaning: "Ey sonsuz güç ve kudret sahibi olan" },
+      { id: 2, arabic: "يَا وَلِيُّ", reading: "Yâ Veliyy", meaning: "Ey dostlarına yardım eden gerçek sahip ve dost" },
+      { id: 3, arabic: "يَا ظَاهِرُ", reading: "Yâ Zâhir", meaning: "Ey varlığı eserleriyle apaçık görünen" },
+      { id: 4, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 5, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 6, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 7, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 8, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 9, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 10, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 98,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 98. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 98",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا بَاطِنُ", reading: "Yâ Bâtın", meaning: "Ey zatının hakikati akılların idrakinden gizli olan" },
+      { id: 2, arabic: "يَا قَادِرُ", reading: "Yâ Kâdir", meaning: "Ey her şeye gücü yeten mutlak kudret sahibi" },
+      { id: 3, arabic: "يَا مُقْتَدِرُ", reading: "Yâ Muktedir", meaning: "Ey dilediğini dilediği gibi icra eden" },
+      { id: 4, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 5, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 6, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 7, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 8, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 9, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 10, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 99,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 99. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 99",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا اَوَّلُ", reading: "Yâ Evvel", meaning: "Ey varlığının başlangıcı olmayan ilk" },
+      { id: 2, arabic: "يَا اٰخِرُ", reading: "Yâ Âhir", meaning: "Ey varlığının sonu olmayan ebedi" },
+      { id: 3, arabic: "يَا فَرْدُ", reading: "Yâ Ferd", meaning: "Ey zatında ve sıfatlarında tek ve eşsiz olan" },
+      { id: 4, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 5, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 6, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 7, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 8, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 9, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 10, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+  },
+  {
+    babNumber: 100,
+    introTr: "Ey kainatın Sahibi ve mevcudatın Hâlıkı olan Rabbim; 100. Babın esrarı ve isimlerinin tecellileriyle Senden af ve emân diliyorum;",
+    bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+    arabicTitle: "اَلْبَابُ 100",
+    openingArabic: "اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ",
+    openingTr: "Allah'ım! Şu mübarek isimlerinin hürmetine Senden niyaz ediyorum:",
+    items: [
+      { id: 1, arabic: "يَا وِتْرُ", reading: "Yâ Vitr", meaning: "Ey ortağı ve benzeri olmayan tek" },
+      { id: 2, arabic: "يَا صَمَدُ", reading: "Yâ Samed", meaning: "Ey her şey Kendisine muhtaç olup Kendisi hiçbir şeye muhtaç olmayan" },
+      { id: 3, arabic: "يَا سَنَدُ", reading: "Yâ Sened", meaning: "Ey bütün varlıkların dayandığı hakiki dayanak" },
+      { id: 4, arabic: "يَا عَلِيُّ", reading: "Yâ Aliyy", meaning: "Ey yüceler yücesi olan" },
+      { id: 5, arabic: "يَا وَفِيُّ", reading: "Yâ Vefiyy", meaning: "Ey sözünde duran ve vefası tam olan" },
+      { id: 6, arabic: "يَا غَنِيُّ", reading: "Yâ Ganiyy", meaning: "Ey mutlak zengin ve hiçbir şeye muhtaç olmayan" },
+      { id: 7, arabic: "يَا مَلِيُّ", reading: "Yâ Meliyy", meaning: "Ey zenginliği ve kudreti bitip tükenmeyen" },
+      { id: 8, arabic: "يَا حَفِيُّ", reading: "Yâ Hafiyy", meaning: "Ey kullarına çok ikram ve iltifat eden" },
+      { id: 9, arabic: "يَا رَضِيُّ", reading: "Yâ Radiyy", meaning: "Ey Kendisinden razı olunan ve kullarından razı olan" },
+      { id: 10, arabic: "يَا زَكِيُّ", reading: "Yâ Zekiyy", meaning: "Ey her türlü kusurdan temiz ve pak olan" }
+    ],
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
   }
 ];
 
 // Durum Yönetimi
 let currentBabIndex = 0;
-let currentReciter = "İsmail Biçer";
-let recitationMode = "alternate"; // 'alternate': 1 Bab Arapça, 1 Bab Türkçe! ('ar', 'tr', 'both')
-let isPlaying = false;
-let playbackTimer = null;
-let currentHighlightId = null;
-let autoTurnPage = true; // Sayfa otomatik çevrilsin mi?
 
 // DOM Elemanları
 const coverView = document.getElementById("coverView");
 const readingView = document.getElementById("readingView");
 const openBookBtn = document.getElementById("openBookBtn");
 const backToCoverBtn = document.getElementById("backToCoverBtn");
-const openSettingsBtn = document.getElementById("openSettingsBtn");
-const switchReciterBtn = document.getElementById("switchReciterBtn");
-const voiceModal = document.getElementById("voiceModal");
-const closeModalBtn = document.getElementById("closeModalBtn");
-const applyVoiceBtn = document.getElementById("applyVoiceBtn");
 
-const currentReciterName = document.getElementById("currentReciterName");
-const activeReciterLabel = document.getElementById("activeReciterLabel");
 const currentBabTitle = document.getElementById("currentBabTitle");
 const leftBabBadge = document.getElementById("leftBabBadge");
 const rightBabBadge = document.getElementById("rightBabBadge");
@@ -256,129 +2223,45 @@ const refrainArText = document.getElementById("refrainArText");
 
 const prevBabBtn = document.getElementById("prevBabBtn");
 const nextBabBtn = document.getElementById("nextBabBtn");
-const playAudioBtn = document.getElementById("playAudioBtn");
-const playIcon = document.getElementById("playIcon");
-const playText = document.getElementById("playText");
-const highlightIndexLabel = document.getElementById("highlightIndexLabel");
 
-// Web Audio / TTS Ses Motoru Kilidini Açma (Android WebView & Mobil Tarayıcılar İçin)
-function unlockAudio() {
-  if ('speechSynthesis' in window) {
-    try {
-      window.speechSynthesis.resume();
-      if (!window.speechSynthesis.speaking) {
-        // Sessiz boş utterance ile Android WebView TTS motorunu ısıt
-        const dummyUtterance = new SpeechSynthesisUtterance("");
-        dummyUtterance.volume = 0;
-        window.speechSynthesis.speak(dummyUtterance);
-      }
-    } catch (e) {}
-  }
+// Ekranı Uyanık Tutma (Screen Wake Lock API - Risale okuma konforu)
+let wakeLock = null;
+async function requestWakeLock() {
+  try {
+    if ('wakeLock' in navigator && !wakeLock) {
+      wakeLock = await navigator.wakeLock.request('screen');
+      wakeLock.addEventListener('release', () => {
+        wakeLock = null;
+      });
+    }
+  } catch (err) {}
 }
-document.addEventListener("touchstart", unlockAudio, { once: true, passive: true });
-document.addEventListener("click", unlockAudio, { once: true, passive: true });
 
 // Olay Dinleyicileri
-openBookBtn.addEventListener("click", () => {
-  unlockAudio();
-  coverView.classList.remove("active");
-  readingView.classList.add("active");
-  renderBab(currentBabIndex);
-});
-
-backToCoverBtn.addEventListener("click", () => {
-  stopPlayback();
-  readingView.classList.remove("active");
-  coverView.classList.add("active");
-});
-
-// Modal Aç/Kapa
-function openModal() {
-  voiceModal.classList.add("active");
+if (openBookBtn) {
+  const openBookHandler = (e) => {
+    if (e.type === 'touchend') e.preventDefault();
+    requestWakeLock();
+    coverView.classList.remove("active");
+    readingView.classList.add("active");
+    renderBab(currentBabIndex);
+  };
+  openBookBtn.addEventListener("click", openBookHandler);
+  openBookBtn.addEventListener("touchend", openBookHandler);
 }
 
-function closeModal() {
-  voiceModal.classList.remove("active");
-}
-
-const cancelModalBtn = document.getElementById("cancelModalBtn");
-
-openSettingsBtn.addEventListener("click", openModal);
-switchReciterBtn.addEventListener("click", openModal);
-closeModalBtn.addEventListener("click", closeModal);
-if (cancelModalBtn) cancelModalBtn.addEventListener("click", closeModal);
-
-// Dışarıya (karartmaya) tıklayınca da modalı kapat
-voiceModal.addEventListener("click", (e) => {
-  if (e.target === voiceModal) {
-    closeModal();
-  }
-});
-
-// Okuma Modu Butonları
-document.querySelectorAll(".mode-btn").forEach(btn => {
-  btn.addEventListener("click", () => {
-    document.querySelectorAll(".mode-btn").forEach(b => b.classList.remove("active"));
-    btn.classList.add("active");
-    recitationMode = btn.getAttribute("data-mode");
-  });
-});
-
-// Modal Seçenekleri
-document.querySelectorAll(".reciter-option").forEach((opt) => {
-  opt.addEventListener("click", () => {
-    document.querySelectorAll(".reciter-option").forEach(o => o.classList.remove("selected"));
-    opt.classList.add("selected");
-    const radio = opt.querySelector("input[type=radio]");
-    radio.checked = true;
-
-    // Otomatik mod eşleme
-    const val = radio.value;
-    if (val.includes("Hayri Küçükdeniz") || val.includes("Türkçe Meal")) {
-      setModeButton("tr");
-    } else if (val.includes("Birlikte")) {
-      setModeButton("both");
-    } else {
-      setModeButton("ar");
-    }
-  });
-});
-
-function setModeButton(mode) {
-  recitationMode = mode;
-  document.querySelectorAll(".mode-btn").forEach(b => {
-    if (b.getAttribute("data-mode") === mode) {
-      b.classList.add("active");
-    } else {
-      b.classList.remove("active");
-    }
-  });
-}
-
-applyVoiceBtn.addEventListener("click", () => {
-  const selectedRadio = document.querySelector("input[name=reciter]:checked");
-  if (selectedRadio) {
-    currentReciter = selectedRadio.value;
-    if (currentReciterName) {
-      currentReciterName.textContent = currentReciter;
-    }
-    if (activeReciterLabel) {
-      activeReciterLabel.textContent = `${currentReciter} (${recitationMode.toUpperCase()})`;
-    }
-  }
-  closeModal();
-});
-
-// Otomatik Çevir Checkbox Dinleyicisi
-const autoTurnCheckbox = document.getElementById("autoTurnCheckbox");
-if (autoTurnCheckbox) {
-  autoTurnCheckbox.addEventListener("change", (e) => {
-    autoTurnPage = e.target.checked;
-  });
+if (backToCoverBtn) {
+  const backHandler = (e) => {
+    if (e.type === 'touchend') e.preventDefault();
+    readingView.classList.remove("active");
+    coverView.classList.add("active");
+  };
+  backToCoverBtn.addEventListener("click", backHandler);
+  backToCoverBtn.addEventListener("touchend", backHandler);
 }
 
 // Sayfa Render & 3D Çevirme Efekti
-function renderBab(index, direction = 'next') {
+function renderBab(index, direction = 'next', sameAudioFile = false) {
   const bookSpread = document.querySelector(".book-spread");
   if (bookSpread) {
     bookSpread.classList.remove("turning-next", "turning-prev");
@@ -390,13 +2273,13 @@ function renderBab(index, direction = 'next') {
   }
 
   const bab = cevsanData[index];
-  currentBabTitle.textContent = `Bab ${bab.babNumber}`;
-  leftBabBadge.textContent = `#${bab.babNumber}`;
-  rightBabBadge.textContent = `#${bab.babNumber}`;
-  introText.textContent = bab.introTr;
-  refrainTrText.textContent = bab.refrainTr;
-  arabicOpeningText.textContent = bab.openingArabic;
-  refrainArText.textContent = bab.refrainArabic;
+  if (currentBabTitle) currentBabTitle.textContent = `Bab ${bab.babNumber}`;
+  if (leftBabBadge) leftBabBadge.textContent = `#${bab.babNumber}`;
+  if (rightBabBadge) rightBabBadge.textContent = `#${bab.babNumber}`;
+  if (introText) introText.textContent = bab.introTr;
+  if (refrainTrText) refrainTrText.textContent = bab.refrainTr;
+  if (arabicOpeningText) arabicOpeningText.textContent = bab.openingArabic;
+  if (refrainArText) refrainArText.textContent = bab.refrainArabic;
 
   const pageCounterBadge = document.getElementById("pageCounterBadge");
   if (pageCounterBadge) {
@@ -411,67 +2294,537 @@ function renderBab(index, direction = 'next') {
   }
 
   // Çeviriler Listesi (Tam Karşılıklı Eşleşen Kutu)
-  translationList.innerHTML = bab.items.map(item => `
-    <div class="trans-item" id="trans-item-${item.id}">
-      <span class="item-id">${item.id}.</span>
-      <div class="item-content">
-        <span class="item-reading">${item.reading}</span>
-        <div class="item-meaning">${item.meaning}</div>
+  if (translationList) {
+    translationList.innerHTML = bab.items.map(item => `
+      <div class="trans-item" id="trans-item-${item.id}" onclick="highlightItem(${item.id})">
+        <span class="item-id">${item.id}.</span>
+        <div class="item-content">
+          <span class="item-reading">${item.reading}</span>
+          <span class="item-meaning">${item.meaning}</span>
+        </div>
       </div>
-    </div>
-  `).join("");
+    `).join("");
+  }
 
-  // Arapça İsimler Listesi (Ortalı)
-  arabicNamesList.innerHTML = bab.items.map(item => `
-    <div class="arabic-item" id="ar-item-${item.id}">
-      <span class="arabic-star">✦</span>
-      <span class="arabic-text">${item.arabic}</span>
-      <span class="arabic-star">✦</span>
-    </div>
-  `).join("");
+  // Arapça İsimler Listesi (Satır başına 3 isim)
+  if (arabicNamesList) {
+    const items = bab.items;
+    let rows = [];
+    for (let i = 0; i < items.length; i += 3) {
+      const rowItems = items.slice(i, i + 3);
+      const rowHtml = rowItems.map(item => `
+        <div class="arabic-item" id="ar-item-${item.id}" onclick="highlightItem(${item.id})">
+          <span class="arabic-star">✦</span>
+          <span class="arabic-text">${item.arabic}</span>
+          <span class="arabic-star">✦</span>
+        </div>
+      `).join("");
+      rows.push(`<div class="arabic-row">${rowHtml}</div>`);
+    }
+    arabicNamesList.innerHTML = rows.join("");
+  }
 
   // Nav butonları kontrol
-  prevBabBtn.disabled = (index === 0);
-  nextBabBtn.disabled = (index === cevsanData.length - 1);
-  highlightIndexLabel.textContent = "Hazır";
+  if (prevBabBtn) prevBabBtn.disabled = (index === 0);
+  if (nextBabBtn) nextBabBtn.disabled = (index === cevsanData.length - 1);
+
+  // Besmele: Sadece İlk Başta (Bab 1) görünsün, sonraki sayfalarda olmasın
+  const bismillahEl = document.querySelector(".arabic-bismillah");
+  if (bismillahEl) {
+    bismillahEl.style.display = (index === 0) ? "block" : "none";
+  }
+
+  // Sayfanın en üstüne kaydır
+  const mainBook = document.querySelector(".book-container");
+  if (mainBook) mainBook.scrollTop = 0;
+
+  // Ses çalınıyorsa ve bab değiştiyse, ilgili bölümü güncelle ve oynat
+  // sameAudioFile=true ise sadece highlight tracker yeniden başlatılır (ses devam eder)
+  if (isAudioPlaying) {
+    if (sameAudioFile) {
+      startHighlightTracker(); // Sesi durdurmadan sadece zamanlayıcıyı yeniden başlat
+    } else {
+      playCurrentBabAudio();
+    }
+  }
 }
 
-prevBabBtn.addEventListener("click", () => {
-  if (currentBabIndex > 0) {
-    stopPlayback();
-    currentBabIndex--;
-    renderBab(currentBabIndex, 'prev');
-  }
-});
+// SESLENDİRME MOTORU
+let isAudioPlaying = false;
+let globalAudio = new Audio();
+let highlightInterval = null;
+let currentHighlightId = null;
+let currentNarrator = 'ishak'; // 'ishak' | 'hayri'
+let currentArabicFont = 'Amiri'; // Seçili hat fontu
 
-nextBabBtn.addEventListener("click", () => {
+const audioToggleBtn = document.getElementById("audioToggleBtn");
+const audioStatusIcon = document.getElementById("audioStatusIcon");
+const audioBtnText = document.getElementById("audioBtnText");
+
+function updateAudioBtnUI(playing) {
+  if (!audioToggleBtn) return;
+  if (playing) {
+    audioToggleBtn.classList.add("playing");
+    if (audioStatusIcon) audioStatusIcon.textContent = "❚❚";
+    if (audioBtnText) audioBtnText.textContent = "Durdur";
+  } else {
+    audioToggleBtn.classList.remove("playing");
+    if (audioStatusIcon) audioStatusIcon.textContent = "▶";
+    if (audioBtnText) audioBtnText.textContent = "Dinle";
+  }
+}
+
+// Okunan satırı / Arapça ismi / Besmele, Giriş ve Salli-Barik/Refrain kısmını kırmızı olarak vurgulama ve odaklama
+function highlightItem(id) {
+  // Önceki tüm aktif sınıfları temizle
+  document.querySelectorAll(".trans-item.active, .arabic-item.active, .arabic-bismillah.active, .arabic-opening.active, .intro-box.active, .refrain-box.active").forEach(el => {
+    el.classList.remove("active");
+  });
+
+  if (id === null || id === undefined) return;
+
+  const bookContainer = document.querySelector(".book-container");
+
+  // Özel Durum 1: Besmele (0.5s - 6.0s)
+  if (id === 'bismillah') {
+    const bismillahEl = document.querySelector(".arabic-bismillah");
+    if (bismillahEl) bismillahEl.classList.add("active");
+    if (bookContainer) bookContainer.scrollTo({ top: 0, behavior: "smooth" });
+    return;
+  }
+
+  // Özel Durum 2: Mukaddime ("Allâhümme innî es'elüke bi-esmâike...") (9.0s - 15.0s)
+  if (id === 'opening') {
+    const openingEl = document.getElementById("arabicOpeningText");
+    const introEl = document.getElementById("introText");
+    if (openingEl) openingEl.classList.add("active");
+    if (introEl) introEl.classList.add("active");
+    if (bookContainer) bookContainer.scrollTo({ top: 0, behavior: "smooth" });
+    return;
+  }
+
+  // Özel Durum 3: Nakarat / Refrain ("Sübhâneke yâ lâ ilâhe illâ ente...")
+  if (id === 'refrain') {
+    const refTr = document.getElementById("refrainTrText");
+    const refAr = document.getElementById("refrainArText");
+    if (refTr) refTr.classList.add("active");
+    if (refAr) refAr.classList.add("active");
+    const targetRef = (currentMobileView === 'ar' && refAr) ? refAr : (refTr || refAr);
+    if (targetRef && bookContainer) {
+      const containerRect = bookContainer.getBoundingClientRect();
+      const targetRect = targetRef.getBoundingClientRect();
+      const targetRelativeTop = targetRect.top - containerRect.top + bookContainer.scrollTop;
+      bookContainer.scrollTo({
+        top: Math.max(0, targetRelativeTop - 100),
+        behavior: "smooth"
+      });
+    }
+    return;
+  }
+
+  // Normal Esmalar (1'den 10'a)
+  const transEl = document.getElementById(`trans-item-${id}`);
+  const arEl = document.getElementById(`ar-item-${id}`);
+
+  if (transEl) transEl.classList.add("active");
+  if (arEl) arEl.classList.add("active");
+
+  const targetEl = (currentMobileView === 'ar' && arEl) ? arEl : (transEl || arEl);
+  if (targetEl) {
+    if (bookContainer) {
+      // 1. veya 2. esmada sayfa tepesini koru
+      if (id <= 2) {
+        bookContainer.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+        return;
+      }
+
+      // Hedef eleman zaten ekranın rahat okunabilir sınırları içindeyse sarsıntı yapma
+      const containerRect = bookContainer.getBoundingClientRect();
+      const targetRect = targetEl.getBoundingClientRect();
+      
+      const isVisible = (
+        targetRect.top >= containerRect.top + 30 &&
+        targetRect.bottom <= containerRect.bottom - 40
+      );
+
+      if (!isVisible) {
+        const targetRelativeTop = targetRect.top - containerRect.top + bookContainer.scrollTop;
+        const desiredScrollTop = Math.max(0, targetRelativeTop - (containerRect.height / 3));
+
+        bookContainer.scrollTo({
+          top: desiredScrollTop,
+          behavior: "smooth"
+        });
+      }
+    } else {
+      targetEl.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+  }
+}
+
+let highlightTimeouts = [];
+
+// 100 Babın her birinin hangi ses dosyasında (bolum_1..13.mp3) olduğu,
+// dosya içi başlangıç saniyesi (offset) ve ortalama süresi (dur):
+const BAB_AUDIO_CONFIG = [
+  // Bölüm 1 (327s) - Bab 1-9 (9 bab)
+  { bolum: 1, offset: 0,   dur: 37.5 },  // Bab 1 (Besmele + Uzun Giriş)
+  { bolum: 1, offset: 38,  dur: 34.0 },  // Bab 2
+  { bolum: 1, offset: 74,  dur: 32.0 },  // Bab 3
+  { bolum: 1, offset: 107, dur: 39.0 },  // Bab 4
+  { bolum: 1, offset: 148, dur: 45.0 },  // Bab 5
+  { bolum: 1, offset: 195, dur: 30.0 },  // Bab 6
+  { bolum: 1, offset: 226, dur: 34.0 },  // Bab 7
+  { bolum: 1, offset: 261, dur: 34.0 },  // Bab 8
+  { bolum: 1, offset: 296, dur: 31.0 },  // Bab 9
+
+  // Bölüm 2 (280s) - Bab 10-17 (8 bab)
+  { bolum: 2, offset: 0,   dur: 35.0 },  // Bab 10
+  { bolum: 2, offset: 35,  dur: 35.0 },  // Bab 11
+  { bolum: 2, offset: 70,  dur: 35.0 },  // Bab 12
+  { bolum: 2, offset: 105, dur: 35.0 },  // Bab 13
+  { bolum: 2, offset: 140, dur: 35.0 },  // Bab 14
+  { bolum: 2, offset: 175, dur: 35.0 },  // Bab 15
+  { bolum: 2, offset: 210, dur: 35.0 },  // Bab 16
+  { bolum: 2, offset: 245, dur: 35.0 },  // Bab 17
+
+  // Bölüm 3 (310s) - Bab 18-25 (8 bab)
+  { bolum: 3, offset: 0,   dur: 38.0 },  // Bab 18
+  { bolum: 3, offset: 38,  dur: 38.0 },  // Bab 19
+  { bolum: 3, offset: 76,  dur: 38.0 },  // Bab 20
+  { bolum: 3, offset: 114, dur: 38.0 },  // Bab 21
+  { bolum: 3, offset: 152, dur: 38.0 },  // Bab 22
+  { bolum: 3, offset: 190, dur: 38.0 },  // Bab 23
+  { bolum: 3, offset: 228, dur: 38.0 },  // Bab 24
+  { bolum: 3, offset: 266, dur: 44.0 },  // Bab 25
+
+  // Bölüm 4 (270s) - Bab 26-32 (7 bab)
+  { bolum: 4, offset: 0,   dur: 38.0 },  // Bab 26
+  { bolum: 4, offset: 38,  dur: 38.0 },  // Bab 27
+  { bolum: 4, offset: 76,  dur: 38.0 },  // Bab 28
+  { bolum: 4, offset: 114, dur: 38.0 },  // Bab 29
+  { bolum: 4, offset: 152, dur: 38.0 },  // Bab 30
+  { bolum: 4, offset: 190, dur: 38.0 },  // Bab 31
+  { bolum: 4, offset: 228, dur: 42.0 },  // Bab 32
+
+  // Bölüm 5 (282s) - Bab 33-40 (8 bab)
+  { bolum: 5, offset: 0,   dur: 35.0 },  // Bab 33
+  { bolum: 5, offset: 35,  dur: 35.0 },  // Bab 34
+  { bolum: 5, offset: 70,  dur: 35.0 },  // Bab 35
+  { bolum: 5, offset: 105, dur: 35.0 },  // Bab 36
+  { bolum: 5, offset: 140, dur: 35.0 },  // Bab 37
+  { bolum: 5, offset: 175, dur: 35.0 },  // Bab 38
+  { bolum: 5, offset: 210, dur: 35.0 },  // Bab 39
+  { bolum: 5, offset: 245, dur: 37.0 },  // Bab 40
+
+  // Bölüm 6 (444s) - Bab 41-52 (12 bab)
+  { bolum: 6, offset: 0,   dur: 37.0 },  // Bab 41
+  { bolum: 6, offset: 37,  dur: 37.0 },  // Bab 42
+  { bolum: 6, offset: 74,  dur: 37.0 },  // Bab 43
+  { bolum: 6, offset: 111, dur: 37.0 },  // Bab 44
+  { bolum: 6, offset: 148, dur: 37.0 },  // Bab 45
+  { bolum: 6, offset: 185, dur: 37.0 },  // Bab 46
+  { bolum: 6, offset: 222, dur: 37.0 },  // Bab 47
+  { bolum: 6, offset: 259, dur: 37.0 },  // Bab 48
+  { bolum: 6, offset: 296, dur: 37.0 },  // Bab 49
+  { bolum: 6, offset: 333, dur: 37.0 },  // Bab 50
+  { bolum: 6, offset: 370, dur: 37.0 },  // Bab 51
+  { bolum: 6, offset: 407, dur: 37.0 },  // Bab 52
+
+  // Bölüm 7 (290s) - Bab 53-60 (8 bab)
+  { bolum: 7, offset: 0,   dur: 36.0 },  // Bab 53
+  { bolum: 7, offset: 36,  dur: 36.0 },  // Bab 54
+  { bolum: 7, offset: 72,  dur: 36.0 },  // Bab 55
+  { bolum: 7, offset: 108, dur: 36.0 },  // Bab 56
+  { bolum: 7, offset: 144, dur: 36.0 },  // Bab 57
+  { bolum: 7, offset: 180, dur: 36.0 },  // Bab 58
+  { bolum: 7, offset: 216, dur: 36.0 },  // Bab 59
+  { bolum: 7, offset: 252, dur: 38.0 },  // Bab 60
+
+  // Bölüm 8 (295s) - Bab 61-68 (8 bab)
+  { bolum: 8, offset: 0,   dur: 36.0 },  // Bab 61
+  { bolum: 8, offset: 36,  dur: 36.0 },  // Bab 62
+  { bolum: 8, offset: 72,  dur: 36.0 },  // Bab 63
+  { bolum: 8, offset: 108, dur: 36.0 },  // Bab 64
+  { bolum: 8, offset: 144, dur: 36.0 },  // Bab 65
+  { bolum: 8, offset: 180, dur: 36.0 },  // Bab 66
+  { bolum: 8, offset: 216, dur: 36.0 },  // Bab 67
+  { bolum: 8, offset: 252, dur: 43.0 },  // Bab 68
+
+  // Bölüm 9 (343s) - Bab 69-77 (9 bab)
+  { bolum: 9, offset: 0,   dur: 38.0 },  // Bab 69
+  { bolum: 9, offset: 38,  dur: 38.0 },  // Bab 70
+  { bolum: 9, offset: 76,  dur: 38.0 },  // Bab 71
+  { bolum: 9, offset: 114, dur: 38.0 },  // Bab 72
+  { bolum: 9, offset: 152, dur: 38.0 },  // Bab 73
+  { bolum: 9, offset: 190, dur: 38.0 },  // Bab 74
+  { bolum: 9, offset: 228, dur: 38.0 },  // Bab 75
+  { bolum: 9, offset: 266, dur: 38.0 },  // Bab 76
+  { bolum: 9, offset: 304, dur: 39.0 },  // Bab 77
+
+  // Bölüm 10 (304s) - Bab 78-85 (8 bab)
+  { bolum: 10, offset: 0,   dur: 38.0 }, // Bab 78
+  { bolum: 10, offset: 38,  dur: 38.0 }, // Bab 79
+  { bolum: 10, offset: 76,  dur: 38.0 }, // Bab 80
+  { bolum: 10, offset: 114, dur: 38.0 }, // Bab 81
+  { bolum: 10, offset: 152, dur: 38.0 }, // Bab 82
+  { bolum: 10, offset: 190, dur: 38.0 }, // Bab 83
+  { bolum: 10, offset: 228, dur: 38.0 }, // Bab 84
+  { bolum: 10, offset: 266, dur: 38.0 }, // Bab 85
+
+  // Bölüm 11 (263s) - Bab 86-92 (7 bab)
+  { bolum: 11, offset: 0,   dur: 37.0 }, // Bab 86
+  { bolum: 11, offset: 37,  dur: 37.0 }, // Bab 87
+  { bolum: 11, offset: 74,  dur: 37.0 }, // Bab 88
+  { bolum: 11, offset: 111, dur: 37.0 }, // Bab 89
+  { bolum: 11, offset: 148, dur: 37.0 }, // Bab 90
+  { bolum: 11, offset: 185, dur: 37.0 }, // Bab 91
+  { bolum: 11, offset: 222, dur: 41.0 }, // Bab 92
+
+  // Bölüm 12 (219s) - Bab 93-97 (5 bab)
+  { bolum: 12, offset: 0,   dur: 43.0 }, // Bab 93
+  { bolum: 12, offset: 43,  dur: 43.0 }, // Bab 94
+  { bolum: 12, offset: 86,  dur: 43.0 }, // Bab 95
+  { bolum: 12, offset: 129, dur: 43.0 }, // Bab 96
+  { bolum: 12, offset: 172, dur: 47.0 }, // Bab 97
+
+  // Bölüm 13 (230s) - Bab 98-100 (3 bab + Dua)
+  { bolum: 13, offset: 0,   dur: 38.0 }, // Bab 98
+  { bolum: 13, offset: 38,  dur: 38.0 }, // Bab 99
+  { bolum: 13, offset: 76,  dur: 39.0 }  // Bab 100
+];
+
+function getBabAudioInfo(babIndex) {
+  const conf = BAB_AUDIO_CONFIG[babIndex] || { bolum: 1, offset: 0, dur: 35.0 };
+  return {
+    bolumNo: conf.bolum,
+    audioSrc: `audio/ishak_danis/bolum_${conf.bolum}.mp3`,
+    offsetSec: conf.offset,
+    babSuresi: conf.dur
+  };
+}
+
+function startHighlightTracker() {
+  stopHighlightTracker();
+  
+  const bookContainer = document.querySelector(".book-container");
+  if (bookContainer) {
+    bookContainer.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  const { babSuresi } = getBabAudioInfo(currentBabIndex);
+  const isFirstBab = (currentBabIndex === 0);
+  const schedule = [];
+
+  if (isFirstBab) {
+    // 1. Bab: Besmele(0.5s) + Giriş("Allahümme inni...") + 10 Esma + Nakarat
+    schedule.push({ time: 500,   action: () => highlightItem('bismillah') });
+    schedule.push({ time: 8500,  action: () => highlightItem('opening') });
+
+    const esma1T = 15000;
+    const esmaStep = 1200;
+    for (let i = 0; i < 10; i++) {
+      const id = i + 1;
+      schedule.push({ time: esma1T + (i * esmaStep), action: () => highlightItem(id) });
+    }
+
+    schedule.push({ time: 27200, action: () => highlightItem('refrain') });
+    schedule.push({ time: 36000, action: () => highlightItem(null) });
+    schedule.push({ time: 37500, action: () => autoFlipToNextBab() });
+  } else {
+    // Bab 2 ve sonrası: Besmele yok! Doğrudan giriş duası başlar
+    schedule.push({ time: 400, action: () => highlightItem('opening') });
+
+    const esma1T = 3200; // 3.2 saniyede 1. Esma başlar
+    const esmaStep = 1250; // Esma okuma aralığı 1.25s
+    const bab = cevsanData[currentBabIndex];
+    const itemCount = bab ? bab.items.length : 10;
+
+    for (let i = 0; i < itemCount; i++) {
+      const id = i + 1;
+      schedule.push({ time: esma1T + (i * esmaStep), action: () => highlightItem(id) });
+    }
+
+    const refrainT = esma1T + (itemCount * esmaStep) + 800; // ~16.5s
+    const totalMs = Math.round(babSuresi * 1000);
+    const endHighlightT = Math.max(refrainT + 12000, totalMs - 2000);
+    const flipT = totalMs;
+
+    schedule.push({ time: refrainT, action: () => highlightItem('refrain') });
+    schedule.push({ time: endHighlightT, action: () => highlightItem(null) });
+    schedule.push({ time: flipT, action: () => autoFlipToNextBab() });
+  }
+
+  schedule.forEach(item => {
+    const t = setTimeout(item.action, item.time);
+    highlightTimeouts.push(t);
+  });
+}
+
+// Bir babın sesi/vurgulaması bitince otomatik sonraki baba geç
+function autoFlipToNextBab() {
+  if (!isAudioPlaying) return;
   if (currentBabIndex < cevsanData.length - 1) {
-    stopPlayback();
+    const prevInfo = getBabAudioInfo(currentBabIndex);
+    currentBabIndex++;
+    const newInfo = getBabAudioInfo(currentBabIndex);
+    const sameFile = (prevInfo.bolumNo === newInfo.bolumNo);
+    // Sayfayı çevir; aynı ses dosyasındaysak ses doğal akışında kesintisiz devam eder
+    renderBab(currentBabIndex, 'next', sameFile);
+  } else {
+    stopAudio();
+  }
+}
+
+function stopHighlightTracker() {
+  if (highlightTimeouts && highlightTimeouts.length > 0) {
+    highlightTimeouts.forEach(t => clearTimeout(t));
+    highlightTimeouts = [];
+  }
+  if (highlightInterval) {
+    clearInterval(highlightInterval);
+    highlightInterval = null;
+  }
+  highlightItem(null);
+}
+
+function playCurrentBabAudio(seekToBab = true) {
+  isAudioPlaying = true;
+  updateAudioBtnUI(true);
+
+  const info = getBabAudioInfo(currentBabIndex);
+  startHighlightTracker();
+
+  const seekMs = seekToBab ? (info.offsetSec * 1000) : 0;
+
+  // 1. Android Yerel Köprü (Doğrudan ilgili saniyeye sararak başlatır)
+  if (window.AndroidTTS && typeof window.AndroidTTS.playLocalAudio === 'function') {
+    try {
+      window.AndroidTTS.playLocalAudio("public/" + info.audioSrc, seekMs);
+      return;
+    } catch (e) {}
+  }
+
+  // 2. HTML5 Web Audio Fallback
+  try {
+    globalAudio.pause();
+    globalAudio.src = info.audioSrc;
+    globalAudio.currentTime = seekMs / 1000;
+    globalAudio.play().then(() => {
+      isAudioPlaying = true;
+      updateAudioBtnUI(true);
+    }).catch(() => {});
+  } catch (e) {}
+}
+
+function stopAudio() {
+  isAudioPlaying = false;
+  stopHighlightTracker();
+
+  // Android Yerel Köprüyü kesin olarak durdur
+  if (window.AndroidTTS && typeof window.AndroidTTS.stop === 'function') {
+    try {
+      window.AndroidTTS.stop();
+    } catch (e) {}
+  }
+  if (globalAudio) {
+    try {
+      globalAudio.pause();
+      globalAudio.currentTime = 0;
+    } catch (e) {}
+  }
+  updateAudioBtnUI(false);
+}
+
+// Android yerel ses bittiğinde tetiklenecek fonksiyon
+window.onNativeAudioFinished = function() {
+  stopHighlightTracker();
+  if (currentBabIndex < cevsanData.length - 1) {
     currentBabIndex++;
     renderBab(currentBabIndex, 'next');
+  } else {
+    stopAudio();
+  }
+};
+
+globalAudio.addEventListener("ended", () => {
+  stopHighlightTracker();
+  if (currentBabIndex < cevsanData.length - 1) {
+    currentBabIndex++;
+    renderBab(currentBabIndex, 'next');
+  } else {
+    stopAudio();
   }
 });
 
-// Seslendirme & Canlı Takip
-playAudioBtn.addEventListener("click", () => {
-  unlockAudio();
-  if (isPlaying) {
-    stopPlayback();
-  } else {
-    startPlayback();
+let lastAudioToggleTime = 0;
+function toggleAudioPlayback(e) {
+  const now = Date.now();
+  if (now - lastAudioToggleTime < 500) {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    return;
   }
-});
+  lastAudioToggleTime = now;
+
+  if (e) {
+    e.preventDefault();
+    e.stopPropagation();
+  }
+  requestWakeLock();
+  if (isAudioPlaying) {
+    stopAudio();
+  } else {
+    playCurrentBabAudio();
+  }
+}
+
+if (audioToggleBtn) {
+  audioToggleBtn.addEventListener("click", toggleAudioPlayback);
+  audioToggleBtn.addEventListener("touchend", toggleAudioPlayback);
+}
+
+
+if (prevBabBtn) {
+  prevBabBtn.addEventListener("click", () => {
+    if (currentBabIndex > 0) {
+      currentBabIndex--;
+      renderBab(currentBabIndex, 'prev');
+    }
+  });
+}
+
+if (nextBabBtn) {
+  nextBabBtn.addEventListener("click", () => {
+    if (currentBabIndex < cevsanData.length - 1) {
+      currentBabIndex++;
+      renderBab(currentBabIndex, 'next');
+    }
+  });
+}
 
 // Mobil Görünüm Sekmeleri (Karşılıklı / Sadece Arapça / Sadece Meal)
 let currentMobileView = 'both';
 const mobileTabs = document.querySelectorAll(".mobile-view-tabs .tab-btn");
+function handleTabSwitch(btn, e) {
+  if (e) {
+    e.preventDefault();
+    e.stopPropagation();
+  }
+  mobileTabs.forEach(b => b.classList.remove("active"));
+  btn.classList.add("active");
+  currentMobileView = btn.getAttribute("data-view");
+  applyMobileViewLayout();
+}
+
 mobileTabs.forEach(btn => {
-  btn.addEventListener("click", () => {
-    mobileTabs.forEach(b => b.classList.remove("active"));
-    btn.classList.add("active");
-    currentMobileView = btn.getAttribute("data-view");
-    applyMobileViewLayout();
-  });
+  btn.addEventListener("click", (e) => handleTabSwitch(btn, e));
+  btn.addEventListener("touchend", (e) => handleTabSwitch(btn, e));
 });
 
 function applyMobileViewLayout() {
@@ -497,364 +2850,6 @@ function applyMobileViewLayout() {
 }
 window.addEventListener("resize", applyMobileViewLayout);
 
-// Sabit ve Sarsıntısız Vurgulama (Aşağı yukarı zıplamayı tamamen önler)
-function highlightItem(id) {
-  document.querySelectorAll(".trans-item.active, .arabic-item.active").forEach(el => {
-    el.classList.remove("active");
-  });
-
-  if (id === null) return;
-
-  const transEl = document.getElementById(`trans-item-${id}`);
-  const arEl = document.getElementById(`ar-item-${id}`);
-
-  if (transEl) transEl.classList.add("active");
-  if (arEl) arEl.classList.add("active");
-
-  // Yalnızca mobil ekranda ve içerik ekran dışındaysa yumuşak dikey kaydırma
-  if (window.innerWidth <= 850) {
-    const targetEl = (currentMobileView === 'ar' && arEl) ? arEl : (transEl || arEl);
-    if (targetEl) {
-      const rect = targetEl.getBoundingClientRect();
-      if (rect.top < 70 || rect.bottom > window.innerHeight - 80) {
-        targetEl.scrollIntoView({ behavior: "smooth", block: "center" });
-      }
-    }
-  }
-}
-
-// Sistemdeki Sesleri Listeleme ve En Uygun Sesi Seçme
-let availableVoices = [];
-function loadVoices() {
-  if ('speechSynthesis' in window) {
-    try {
-      availableVoices = window.speechSynthesis.getVoices();
-    } catch (e) {}
-  }
-}
-loadVoices();
-if ('speechSynthesis' in window) {
-  window.speechSynthesis.onvoiceschanged = loadVoices;
-}
-
-// Ses Sentezleme & Web Audio Çan Tonu Destekli Oynatıcı
-let audioCtx = null;
-function playHarmonicTone(freq = 440, duration = 0.25) {
-  try {
-    const AudioContext = window.AudioContext || window.webkitAudioContext;
-    if (!AudioContext) return;
-    if (!audioCtx) audioCtx = new AudioContext();
-    if (audioCtx.state === 'suspended') {
-      audioCtx.resume();
-    }
-    const osc = audioCtx.createOscillator();
-    const gain = audioCtx.createGain();
-    osc.type = "sine";
-    osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
-    gain.gain.setValueAtTime(0.08, audioCtx.currentTime);
-    gain.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + duration);
-    osc.connect(gain);
-    gain.connect(audioCtx.destination);
-    osc.start();
-    osc.stop(audioCtx.currentTime + duration);
-  } catch (e) {}
-}
-
-// İnternetten Doğal Ses Oynatıcı (Google TTS Audio Stream)
-let currentOnlineAudio = null;
-
-function playOnlineAudio(text, lang = 'ar') {
-  return new Promise((resolve) => {
-    let resolved = false;
-    const finish = () => {
-      if (!resolved) {
-        resolved = true;
-        if (currentOnlineAudio) {
-          currentOnlineAudio.onended = null;
-          currentOnlineAudio.onerror = null;
-        }
-        resolve();
-      }
-    };
-
-    try {
-      if (currentOnlineAudio) {
-        currentOnlineAudio.pause();
-        currentOnlineAudio.src = "";
-      }
-
-      // Metni temizle ve online TTS için hazırla
-      const cleanText = text.replace(/[\r\n\t]/g, ' ').replace(/\s+/g, ' ').trim();
-      const targetLang = lang.startsWith('ar') ? 'ar' : 'tr';
-      // Google TTS endpoint (İnternetten yüksek kaliteli ve doğal ses)
-      const encodedText = encodeURIComponent(cleanText.substring(0, 160));
-      const audioUrl = `https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=${targetLang}&q=${encodedText}`;
-
-      const audio = new Audio();
-      currentOnlineAudio = audio;
-      audio.crossOrigin = "anonymous";
-      audio.preload = "auto";
-      audio.src = audioUrl;
-
-      audio.onended = finish;
-      audio.onerror = () => {
-        // İnternet veya bağlantı sorunu olursa Promise takılmasın, sonrakine geçsin
-        finish();
-      };
-
-      // Güvenlik zaman aşımı: Ağ yavaşsa veya ses takılırsa akış durmasın
-      const estimatedSec = Math.max(2000, cleanText.length * 90);
-      const timeoutTimer = setTimeout(finish, estimatedSec + 3000);
-
-      const originalFinish = finish;
-      const wrappedFinish = () => {
-        clearTimeout(timeoutTimer);
-        originalFinish();
-      };
-      audio.onended = wrappedFinish;
-      audio.onerror = wrappedFinish;
-
-      const playPromise = audio.play();
-      if (playPromise !== undefined) {
-        playPromise.catch(() => {
-          // Otomatik oynatma veya ağ engeline takılırsa bitir
-          finish();
-        });
-      }
-    } catch (e) {
-      finish();
-    }
-  });
-}
-
-// Android Yerel Callback Dinleyicisi
-let currentUtteranceCallback = null;
-window.onAndroidTTSFinished = function(utteranceId) {
-  if (currentUtteranceCallback) {
-    const cb = currentUtteranceCallback;
-    currentUtteranceCallback = null;
-    cb();
-  }
-};
-
-function speakText(text, lang = 'tr-TR', rate = 0.95) {
-  return new Promise(async (resolve) => {
-    let resolved = false;
-    const safeResolve = () => {
-      if (!resolved) {
-        resolved = true;
-        currentUtteranceCallback = null;
-        resolve();
-      }
-    };
-
-    const cleanText = text.replace(/[\r\n\t]/g, ' ').replace(/\s+/g, ' ').trim();
-    const uId = "utt_" + Date.now();
-    currentUtteranceCallback = safeResolve;
-
-    // 1. Android Yerel Köprü (Android MediaPlayer ile İnternetten Canlı Ses)
-    if (window.AndroidTTS && typeof window.AndroidTTS.playOnline === 'function') {
-      try {
-        window.AndroidTTS.playOnline(cleanText, lang, uId);
-        // Zaman aşımı sigortası
-        const maxWait = Math.max(2500, cleanText.length * 130);
-        setTimeout(safeResolve, maxWait);
-        return;
-      } catch (e) {}
-    }
-
-    // 2. HTML5 Web Audio / Audio Element ile İnternetten Oynatma
-    try {
-      await playOnlineAudio(cleanText, lang);
-      safeResolve();
-      return;
-    } catch (e) {}
-
-    // 3. Çevrimdışı Android TTS Sentezleyici
-    if (window.AndroidTTS && typeof window.AndroidTTS.speak === 'function') {
-      try {
-        window.AndroidTTS.speak(cleanText, lang, uId);
-        const maxWait = Math.max(2000, cleanText.length * 100);
-        setTimeout(safeResolve, maxWait);
-        return;
-      } catch (e) {}
-    }
-
-    // 4. Web Speech Synthesis Kullan
-    if (!('speechSynthesis' in window)) {
-      playHarmonicTone(lang.startsWith('ar') ? 520 : 440, 0.35);
-      setTimeout(safeResolve, Math.max(1000, cleanText.length * 60));
-      return;
-    }
-
-    try {
-      window.speechSynthesis.cancel();
-      window.speechSynthesis.resume();
-
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = lang;
-      utterance.rate = rate;
-      utterance.pitch = 1.0;
-      utterance.volume = 1.0;
-
-      if (availableVoices.length === 0) {
-        loadVoices();
-      }
-
-      if (availableVoices.length > 0) {
-        if (lang.startsWith('tr')) {
-          const trVoice = availableVoices.find(v => (v.lang && (v.lang.startsWith('tr') || v.lang.includes('TR'))));
-          if (trVoice) utterance.voice = trVoice;
-        } else if (lang.startsWith('ar')) {
-          const arVoice = availableVoices.find(v => (v.lang && (v.lang.startsWith('ar') || v.lang.includes('AR'))));
-          if (arVoice) utterance.voice = arVoice;
-        }
-      }
-
-      let hasFinished = false;
-      const finish = () => {
-        if (!hasFinished) {
-          hasFinished = true;
-          resolve();
-        }
-      };
-
-      utterance.onend = finish;
-      utterance.onerror = () => {
-        playHarmonicTone(lang.startsWith('ar') ? 540 : 460, 0.35);
-        setTimeout(finish, Math.max(1200, text.length * 60));
-      };
-
-      const fallbackTimeout = setTimeout(() => {
-        finish();
-      }, Math.max(2500, text.length * 120));
-
-      window.speechSynthesis.speak(utterance);
-    } catch (e) {
-      playHarmonicTone(440, 0.3);
-      setTimeout(resolve, 1500);
-    }
-  });
-}
-
-async function startPlayback() {
-  isPlaying = true;
-  playBtnState(true);
-  const bab = cevsanData[currentBabIndex];
-
-  // Mod hesaplama: 'alternate' seçiliyse çift indeksler (Bab 1, 3, 5...) Arapça, tek indeksler (Bab 2, 4...) Türkçe
-  let effectiveMode = recitationMode;
-  if (recitationMode === 'alternate') {
-    effectiveMode = (currentBabIndex % 2 === 0) ? 'ar' : 'tr';
-  }
-
-  // Başlangıç Duası
-  if (effectiveMode === 'ar' || effectiveMode === 'both') {
-    highlightIndexLabel.textContent = `Bab ${bab.babNumber} • Arapça Tilavet`;
-    await speakText(bab.bismillah, 'ar-SA', 0.85);
-    if (!isPlaying) return;
-    await speakText(bab.openingArabic, 'ar-SA', 0.85);
-  } else if (effectiveMode === 'tr') {
-    highlightIndexLabel.textContent = `Bab ${bab.babNumber} • Türkçe Meali`;
-    await speakText(bab.openingTr, 'tr-TR', 0.95);
-  }
-
-  for (let i = 0; i < bab.items.length; i++) {
-    if (!isPlaying) break;
-    const currentItem = bab.items[i];
-    currentHighlightId = currentItem.id;
-    highlightItem(currentItem.id);
-
-    if (effectiveMode === 'ar') {
-      highlightIndexLabel.textContent = `Arapça: ${currentItem.id} / ${bab.items.length} (${currentItem.reading})`;
-      await speakText(currentItem.arabic, 'ar-SA', 0.85);
-      await new Promise(r => setTimeout(r, 1200));
-    } else if (effectiveMode === 'tr') {
-      highlightIndexLabel.textContent = `Türkçe Meal: ${currentItem.id} / ${bab.items.length} - ${currentItem.reading}`;
-      await speakText(`${currentItem.reading}. ${currentItem.meaning}`, 'tr-TR', 0.95);
-      await new Promise(r => setTimeout(r, 1000));
-    } else if (effectiveMode === 'both') {
-      highlightIndexLabel.textContent = `Arapça & Meal: ${currentItem.id} / ${bab.items.length} - ${currentItem.reading}`;
-      await speakText(currentItem.arabic, 'ar-SA', 0.85);
-      if (!isPlaying) break;
-      await new Promise(r => setTimeout(r, 500));
-      await speakText(currentItem.meaning, 'tr-TR', 0.95);
-      await new Promise(r => setTimeout(r, 1000));
-    }
-  }
-
-  if (isPlaying) {
-    // Bab Sonu Nakarat Duası
-    highlightIndexLabel.textContent = "Nakarat (El-Emân)";
-    highlightItem(null);
-    if (effectiveMode === 'tr') {
-      await speakText(bab.refrainTr, 'tr-TR', 0.95);
-    } else {
-      await speakText(bab.refrainArabic, 'ar-SA', 0.85);
-      if (effectiveMode === 'both') {
-        await new Promise(r => setTimeout(r, 600));
-        await speakText(bab.refrainTr, 'tr-TR', 0.95);
-      }
-    }
-
-    // SAYFA OTOMATİK ÇEVİRME KONTROLÜ (YANA DOĞRU ÇEVİRME)
-    if (autoTurnPage && currentBabIndex < cevsanData.length - 1) {
-      const nextModeName = (recitationMode === 'alternate') 
-        ? ((currentBabIndex + 1) % 2 === 0 ? "Arapça" : "Türkçe") 
-        : "";
-      highlightIndexLabel.textContent = `Sonraki Bab'a Yana Çevriliyor... ${nextModeName ? '(' + nextModeName + ')' : ''}`;
-      await new Promise(r => setTimeout(r, 1500));
-      if (!isPlaying) return;
-      currentBabIndex++;
-      renderBab(currentBabIndex, 'next');
-      // Sonraki babın okunmasına kesintisiz devam et
-      startPlayback();
-    } else {
-      stopPlayback();
-    }
-  }
-}
-
-function stopPlayback() {
-  isPlaying = false;
-  playBtnState(false);
-  if (currentOnlineAudio) {
-    try {
-      currentOnlineAudio.pause();
-      currentOnlineAudio.src = "";
-    } catch (e) {}
-  }
-  if (window.AndroidTTS && typeof window.AndroidTTS.stop === 'function') {
-    try {
-      window.AndroidTTS.stop();
-    } catch (e) {}
-  }
-  if ('speechSynthesis' in window) {
-    try {
-      window.speechSynthesis.cancel();
-    } catch (e) {}
-  }
-  highlightItem(null);
-  highlightIndexLabel.textContent = "Durduruldu";
-}
-
-function playBtnState(playing) {
-  if (playAudioBtn) {
-    if (playing) {
-      playAudioBtn.classList.add("playing");
-    } else {
-      playAudioBtn.classList.remove("playing");
-    }
-  }
-  if (playIcon) playIcon.textContent = playing ? "❚❚" : "▶";
-  if (playText) playText.textContent = playing ? "Durdur" : "Seslendir & Takip Et";
-  const vDot = document.getElementById("voiceDot");
-  if (vDot) {
-    if (playing) vDot.classList.add("playing");
-    else vDot.classList.remove("playing");
-  }
-}
-
 // Parmağı Ekranda Yana Kaydırarak Sayfa Çevirme (Touch Swipe - Risale-i Nur Tarzı)
 let touchStartX = 0;
 let touchStartY = 0;
@@ -879,14 +2874,12 @@ touchArea.addEventListener("touchend", (e) => {
     if (deltaX < 0) {
       // Parmağı sola kaydırdı -> Sonraki sayfaya/baba git
       if (currentBabIndex < cevsanData.length - 1) {
-        stopPlayback();
         currentBabIndex++;
         renderBab(currentBabIndex, 'next');
       }
     } else {
       // Parmağı sağa kaydırdı -> Önceki sayfaya/baba git
       if (currentBabIndex > 0) {
-        stopPlayback();
         currentBabIndex--;
         renderBab(currentBabIndex, 'prev');
       }
@@ -896,3 +2889,54 @@ touchArea.addEventListener("touchend", (e) => {
 
 // Başlangıç render
 renderBab(currentBabIndex);
+
+// ============================================================
+// AYARLAR PANELİ JS (Seslendirme + Hat Seçimi)
+// ============================================================
+const settingsBtn = document.getElementById('settingsBtn');
+const settingsPanel = document.getElementById('settingsPanel');
+const settingsCloseBtn = document.getElementById('settingsCloseBtn');
+
+function openSettings() {
+  if (settingsPanel) settingsPanel.classList.remove('hidden');
+}
+function closeSettings() {
+  if (settingsPanel) settingsPanel.classList.add('hidden');
+}
+
+if (settingsBtn) {
+  settingsBtn.addEventListener('click', openSettings);
+  settingsBtn.addEventListener('touchend', (e) => { e.preventDefault(); openSettings(); });
+}
+if (settingsCloseBtn) {
+  settingsCloseBtn.addEventListener('click', closeSettings);
+  settingsCloseBtn.addEventListener('touchend', (e) => { e.preventDefault(); closeSettings(); });
+}
+if (settingsPanel) {
+  settingsPanel.addEventListener('click', (e) => {
+    if (e.target === settingsPanel) closeSettings();
+  });
+}
+
+
+// --- Hat (Yazı Tipi) seçimi ---
+function applyArabicFont(fontName) {
+  currentArabicFont = fontName;
+  const selector = '.arabic-text, .arabic-bismillah, .arabic-opening, #refrainArText, .arabic-header-title';
+  document.querySelectorAll(selector).forEach(el => {
+    el.style.fontFamily = `'${fontName}', serif`;
+  });
+  document.querySelectorAll('.hat-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.getAttribute('data-font') === fontName);
+  });
+}
+
+document.querySelectorAll('.hat-btn').forEach(btn => {
+  const handler = (e) => {
+    e.preventDefault();
+    applyArabicFont(btn.getAttribute('data-font'));
+    closeSettings();
+  };
+  btn.addEventListener('click', handler);
+  btn.addEventListener('touchend', handler);
+});

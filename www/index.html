@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <title>Cevşen-ül Kebir | Dualar & Okuma</title>
+  <title>Cevşen-ül Kebir | Dualar &amp; Okuma</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Mevcut fontlar + yeni hat fontları -->
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Inter:wght@400;500;600&family=Scheherazade+New:wght@400;700&family=Noto+Naskh+Arabic:wght@400;700&family=Lateef&family=Reem+Kufi:wght@400;700&family=Harmattan:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -28,9 +29,6 @@
         <div class="cover-actions">
           <button id="openBookBtn" class="btn primary-btn">
             <span class="btn-icon">📖</span> Cevşen'i Aç ve Oku
-          </button>
-          <button id="openSettingsBtn" class="btn secondary-btn">
-            <span class="btn-icon">⚙️</span> Ses Seçenekleri
           </button>
         </div>
       </div>
@@ -58,12 +56,58 @@
       </div>
 
       <div class="header-right">
-        <div class="page-badge-box" id="pageCounterBadge">1 / 100</div>
-        <button id="switchReciterBtn" class="icon-action-btn" title="Ses Seçimi">
-          🎙️
+        <!-- Seslendirme Düğmesi -->
+        <button id="audioToggleBtn" class="audio-toggle-btn" title="Seslendirme Aç/Kapat">
+          <span id="audioStatusIcon" class="audio-icon">▶</span>
+          <span id="audioBtnText" class="audio-text">Dinle</span>
         </button>
+        <!-- Ayarlar Düğmesi (narrator + hat) -->
+        <button id="settingsBtn" class="settings-btn" title="Ayarlar">⚙</button>
+        <div class="page-badge-box" id="pageCounterBadge">1 / 100</div>
       </div>
     </header>
+
+    <!-- Ayarlar Paneli (narrator seçimi + hat seçimi) -->
+    <div id="settingsPanel" class="settings-panel hidden">
+      <div class="settings-panel-inner">
+        <div class="settings-close-row">
+          <span class="settings-title">⚙ Ayarlar</span>
+          <button id="settingsCloseBtn" class="settings-close-btn">✕</button>
+        </div>
+
+
+        <!-- Hat (Yazı Tipi) Seçimi -->
+        <div class="settings-section">
+          <div class="settings-label">✒ Hat Seçimi</div>
+          <div class="hat-options">
+            <button class="hat-btn active" data-font="Amiri" style="font-family:'Amiri',serif;">
+              <span class="hat-preview">اَلرَّحْمٰنِ</span>
+              <span class="hat-name">Amiri (Klasik)</span>
+            </button>
+            <button class="hat-btn" data-font="Scheherazade New" style="font-family:'Scheherazade New',serif;">
+              <span class="hat-preview">اَلرَّحْمٰنِ</span>
+              <span class="hat-name">Scheherazade</span>
+            </button>
+            <button class="hat-btn" data-font="Noto Naskh Arabic" style="font-family:'Noto Naskh Arabic',serif;">
+              <span class="hat-preview">اَلرَّحْمٰنِ</span>
+              <span class="hat-name">Naskh</span>
+            </button>
+            <button class="hat-btn" data-font="Reem Kufi" style="font-family:'Reem Kufi',serif;">
+              <span class="hat-preview">اَلرَّحْمٰنِ</span>
+              <span class="hat-name">Kûfî</span>
+            </button>
+            <button class="hat-btn" data-font="Lateef" style="font-family:'Lateef',serif;">
+              <span class="hat-preview">اَلرَّحْمٰنِ</span>
+              <span class="hat-name">Lateef</span>
+            </button>
+            <button class="hat-btn" data-font="Harmattan" style="font-family:'Harmattan',serif;">
+              <span class="hat-preview">اَلرَّحْمٰنِ</span>
+              <span class="hat-name">Harmattan</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Ana Kitap Alanı (İki Sayfalı Görünüm) -->
     <main class="book-container">
@@ -73,7 +117,7 @@
         <section class="page page-left">
           <div class="page-inner">
             <div class="page-header">
-              <span class="page-meta">Tercüme & İzah</span>
+              <span class="page-meta">Tercüme &amp; İzah</span>
               <span class="bab-badge" id="leftBabBadge">#1</span>
             </div>
 
@@ -108,11 +152,11 @@
             </div>
 
             <div class="arabic-bismillah">
-              بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ
+              بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ
             </div>
 
             <div class="arabic-opening" id="arabicOpeningText">
-              اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ
+              اَللّٰهُمَّ اِنّ۪ى اَسْئَلُكَ بِاَسْمَٓائِكَ
             </div>
 
             <div class="arabic-names-grid" id="arabicNamesList">
@@ -120,7 +164,7 @@
             </div>
 
             <div class="refrain-box refrain-ar" id="refrainArText">
-              سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ
+              سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ
             </div>
 
             <!-- Fotoğraftaki Oval Sayfa Numarası -->
@@ -133,110 +177,18 @@
       </div>
     </main>
 
-    <!-- Alt Okuma & Oynatma Kontrol Barı -->
-    <footer class="player-bar">
-      <div class="player-controls">
-        <button id="prevBabBtn" class="control-btn" title="Önceki Bab">
-          <span>«</span> Önceki
+    <!-- Alt Sayfa Gezinme Barı (Önceki - Sonraki Butonları) -->
+    <footer class="player-bar clean-nav-bar">
+      <div class="player-controls clean-nav-controls">
+        <button id="prevBabBtn" class="control-btn nav-large-btn" title="Önceki Bab">
+          <span>«</span> Önceki Bab
         </button>
 
-        <button id="playAudioBtn" class="btn play-btn">
-          <span id="playIcon">▶</span> <span id="playText">Seslendir</span>
-        </button>
-
-        <label class="auto-turn-toggle" title="Bab tamamlandığında otomatik sonraki baba geçer">
-          <input type="checkbox" id="autoTurnCheckbox" checked>
-          <span class="toggle-label">Oto</span>
-        </label>
-
-        <button id="nextBabBtn" class="control-btn" title="Sonraki Bab">
-          Sonraki <span>»</span>
+        <button id="nextBabBtn" class="control-btn nav-large-btn" title="Sonraki Bab">
+          Sonraki Bab <span>»</span>
         </button>
       </div>
-      <div class="status-ticker" id="highlightIndexLabel">Hazır</div>
     </footer>
-  </div>
-
-  <!-- SES SEÇENEKLERİ MODAL (POPUP) -->
-  <div id="voiceModal" class="modal-overlay">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3>🎙️ Seslendirme Seçenekleri</h3>
-        <button id="closeModalBtn" class="close-modal">&times;</button>
-      </div>
-      <p class="modal-desc">Cevşen-ül Kebir tilavetini dinlemek ve satır satır takip etmek istediğiniz kâriyi belirleyin:</p>
-      
-      <div class="reciter-list">
-        <label class="reciter-option selected" data-reciter="İsmail Biçer">
-          <input type="radio" name="reciter" value="İsmail Biçer" checked>
-          <div class="option-info">
-            <span class="option-title">İsmail Biçer</span>
-            <span class="option-desc">Klasik, vakur ve derin tilavet (Hafız & Mevlithan)</span>
-          </div>
-          <span class="check-mark">✓</span>
-        </label>
-
-        <label class="reciter-option" data-reciter="İshak Danış">
-          <input type="radio" name="reciter" value="İshak Danış">
-          <div class="option-info">
-            <span class="option-title">İshak Danış</span>
-            <span class="option-desc">Açık, tane tane ve berrak okuyuş</span>
-          </div>
-          <span class="check-mark">✓</span>
-        </label>
-
-        <label class="reciter-option" data-reciter="Fatih Çollak">
-          <input type="radio" name="reciter" value="Fatih Çollak">
-          <div class="option-info">
-            <span class="option-title">Prof. Dr. Fatih Çollak</span>
-            <span class="option-desc">Diyanet ve kıraat usulü, tecvidli ve akıcı</span>
-          </div>
-          <span class="check-mark">✓</span>
-        </label>
-
-        <label class="reciter-option" data-reciter="Hayri Küçükdeniz (Türkçe Meal)">
-          <input type="radio" name="reciter" value="Hayri Küçükdeniz (Türkçe Meal)">
-          <div class="option-info">
-            <span class="option-title">🎙️ Hayri Küçükdeniz (Türkçe Meal)</span>
-            <span class="option-desc">Tane tane, etkileyici ve berrak profesyonel Türkçe seslendirme</span>
-          </div>
-          <span class="check-mark">✓</span>
-        </label>
-
-        <label class="reciter-option" data-reciter="Arapça Oku + Türkçe Meal (Birlikte)">
-          <input type="radio" name="reciter" value="Arapça Oku + Türkçe Meal (Birlikte)">
-          <div class="option-info">
-            <span class="option-title">📖 Arapça Tilavet + Ardından Türkçe Meali</span>
-            <span class="option-desc">Önce Arapça lafzını okur, ardından hemen Türkçe manasını seslendirir</span>
-          </div>
-          <span class="check-mark">✓</span>
-        </label>
-
-        <label class="reciter-option" data-reciter="Yapay Zeka (TTS)">
-          <input type="radio" name="reciter" value="Yapay Zeka (TTS)">
-          <div class="option-info">
-            <span class="option-title">🤖 Yapay Zeka Cihaz Sentezleyicisi</span>
-            <span class="option-desc">Cihazınızın sistem sesiyle doğal okuma</span>
-          </div>
-          <span class="check-mark">✓</span>
-        </label>
-      </div>
-
-      <div class="voice-mode-section">
-        <label class="mode-label"><strong>Okuma Modu:</strong></label>
-        <div class="mode-toggles">
-          <button type="button" class="mode-btn active" data-mode="alternate">1 Bab Arapça, 1 Bab Türkçe</button>
-          <button type="button" class="mode-btn" data-mode="ar">Sadece Arapça</button>
-          <button type="button" class="mode-btn" data-mode="tr">Sadece Türkçe</button>
-          <button type="button" class="mode-btn" data-mode="both">İkisi Birlikte</button>
-        </div>
-      </div>
-
-      <div class="modal-footer modal-actions-grid">
-        <button id="cancelModalBtn" class="btn secondary-btn modal-cancel-btn">✕ Kapat</button>
-        <button id="applyVoiceBtn" class="btn primary-btn modal-save-btn">✓ Seçimi Kaydet ve Kapat</button>
-      </div>
-    </div>
   </div>
 
   <script src="app.js"></script>

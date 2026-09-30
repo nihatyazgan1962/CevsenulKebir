@@ -52,15 +52,6 @@ npx cap sync android
 npx cap open android
 ```
 
-## 📁 Proje Yapısı
-
-```
-├── lib/              # Flutter kaynak kodları
-├── assets/           # Ses dosyaları, görseller
-├── android/          # Android native proje
-├── www/              # Web (Capacitor) sürümü
-└── pubspec.yaml      # Flutter bağımlılıkları
-```
 
 ## 👨‍💻 Geliştirici
 

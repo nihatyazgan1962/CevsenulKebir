@@ -21,6 +21,16 @@ public class MainActivity extends BridgeActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         
+        // Ekranın sürekli uyanık ve açık kalmasını sağla
+        try {
+            getWindow().addFlags(android.view.WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+            // Üst bildirim çubuğu ve alt navigasyon çubuğu renklerini ayarla
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
+                getWindow().setStatusBarColor(android.graphics.Color.parseColor("#212121"));
+                getWindow().setNavigationBarColor(android.graphics.Color.parseColor("#0d0102"));
+            }
+        } catch (Exception ignored) {}
+
         // Android Yerel TTS Motorunu Başlat (Google TTS / Varsayılan TTS)
         initTTS();
 
@@ -97,6 +107,108 @@ public class MainActivity extends BridgeActivity {
         }
 
         @JavascriptInterface
+        public void playLocalAudio(String assetPath) {
+            playLocalAudio(assetPath, 0);
+        }
+
+        @JavascriptInterface
+        public void playLocalAudio(String assetPath, int startMs) {
+            runOnUiThread(() -> {
+                try {
+                    stop();
+                    mediaPlayer = new MediaPlayer();
+                    mediaPlayer.setAudioAttributes(
+                        new AudioAttributes.Builder()
+                            .setContentType(AudioAttributes.CONTENT_TYPE_SPEECH)
+                            .setUsage(AudioAttributes.USAGE_MEDIA)
+                            .build()
+                    );
+
+                    String cleanPath = assetPath.startsWith("/") ? assetPath.substring(1) : assetPath;
+                    android.content.res.AssetFileDescriptor afd = null;
+                    try {
+                        afd = getAssets().openFd(cleanPath);
+                    } catch (Exception e1) {
+                        try {
+                            if (!cleanPath.startsWith("public/")) {
+                                afd = getAssets().openFd("public/" + cleanPath);
+                            } else {
+                                afd = getAssets().openFd(cleanPath.substring(7));
+                            }
+                        } catch (Exception e2) {}
+                    }
+
+                    if (afd != null) {
+                        mediaPlayer.setDataSource(afd.getFileDescriptor(), afd.getStartOffset(), afd.getLength());
+                        afd.close();
+                    } else {
+                        // Dosya sıkıştırılmışsa veya doğrudan fd açılamıyorsa InputStream ile geçici dosyaya yazıp çal
+                        java.io.InputStream is = null;
+                        try {
+                            is = getAssets().open(cleanPath);
+                        } catch (Exception e1) {
+                            try {
+                                if (!cleanPath.startsWith("public/")) {
+                                    is = getAssets().open("public/" + cleanPath);
+                                } else {
+                                    is = getAssets().open(cleanPath.substring(7));
+                                }
+                            } catch (Exception e2) {}
+                        }
+
+                        if (is != null) {
+                            java.io.File tempFile = new java.io.File(getCacheDir(), "current_playing.mp3");
+                            java.io.FileOutputStream fos = new java.io.FileOutputStream(tempFile);
+                            byte[] buf = new byte[16384];
+                            int len;
+                            while ((len = is.read(buf)) != -1) {
+                                fos.write(buf, 0, len);
+                            }
+                            fos.close();
+                            is.close();
+                            mediaPlayer.setDataSource(tempFile.getAbsolutePath());
+                        } else {
+                            // Dosya bulunamadı
+                            return;
+                        }
+                    }
+
+                    mediaPlayer.setOnPreparedListener(mp -> {
+                        if (startMs > 0) {
+                            mp.seekTo(startMs);
+                        }
+                        mp.start();
+                    });
+                    mediaPlayer.setOnCompletionListener(mp -> {
+                        mp.release();
+                        mediaPlayer = null;
+                        runOnUiThread(() -> {
+                            try {
+                                WebView wv = getBridge().getWebView();
+                                if (wv != null) {
+                                    wv.evaluateJavascript("if(window.onNativeAudioFinished) window.onNativeAudioFinished();", null);
+                                }
+                            } catch (Exception ignored) {}
+                        });
+                    });
+                    mediaPlayer.setOnErrorListener((mp, what, extra) -> {
+                        mp.release();
+                        mediaPlayer = null;
+                        return true;
+                    });
+                    mediaPlayer.prepareAsync();
+                } catch (Exception e) {
+                    try {
+                        if (mediaPlayer != null) {
+                            mediaPlayer.release();
+                            mediaPlayer = null;
+                        }
+                    } catch (Exception ignored) {}
+                }
+            });
+        }
+
+        @JavascriptInterface
         public void playOnline(String text, String lang, String utteranceId) {
             runOnUiThread(() -> {
                 try {
@@ -114,7 +226,13 @@ public class MainActivity extends BridgeActivity {
                             .setUsage(AudioAttributes.USAGE_MEDIA)
                             .build()
                     );
-                    mediaPlayer.setDataSource(MainActivity.this, Uri.parse(streamUrl));
+                    
+                    // Android MediaPlayer için HTTP Header'ları ekle (User-Agent ile engellemeyi önler)
+                    java.util.Map<String, String> headers = new java.util.HashMap<>();
+                    headers.put("User-Agent", "Mozilla/5.0 (Linux; Android 10; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.0.0 Mobile Safari/537.36");
+                    headers.put("Referer", "https://translate.google.com/");
+
+                    mediaPlayer.setDataSource(MainActivity.this, Uri.parse(streamUrl), headers);
                     mediaPlayer.setOnPreparedListener(mp -> mp.start());
                     mediaPlayer.setOnCompletionListener(mp -> {
                         mp.release();
@@ -124,14 +242,13 @@ public class MainActivity extends BridgeActivity {
                     mediaPlayer.setOnErrorListener((mp, what, extra) -> {
                         mp.release();
                         mediaPlayer = null;
-                        // Çevrimiçi hata verirse TTS ile devam et
-                        speak(text, lang, utteranceId);
+                        // Sentetik sese düşme, doğrudan bitir
+                        notifyWebTTSFinished(utteranceId);
                         return true;
                     });
                     mediaPlayer.prepareAsync();
                 } catch (Exception e) {
-                    // Hata durumunda yerel TTS'e devret
-                    speak(text, lang, utteranceId);
+                    notifyWebTTSFinished(utteranceId);
                 }
             });
         }
@@ -149,14 +266,38 @@ public class MainActivity extends BridgeActivity {
                             targetLocale = new Locale("ar");
                             int res = tts.setLanguage(targetLocale);
                             if (res == TextToSpeech.LANG_MISSING_DATA || res == TextToSpeech.LANG_NOT_SUPPORTED) {
-                                tts.setLanguage(new Locale("tr", "TR"));
+                                targetLocale = new Locale("tr", "TR");
+                                tts.setLanguage(targetLocale);
                             }
                         } else {
                             targetLocale = new Locale("tr", "TR");
                             tts.setLanguage(targetLocale);
                         }
-                        tts.setSpeechRate(0.90f);
-                        tts.setPitch(1.0f);
+
+                        // CİHAZ SESİ KESİN ERKEK SESİ: Tok, vakarlı ve bas erkek tonu
+                        tts.setPitch(0.78f);
+                        tts.setSpeechRate(0.92f);
+
+                        try {
+                            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP && tts.getVoices() != null) {
+                                android.speech.tts.Voice bestMaleVoice = null;
+                                for (android.speech.tts.Voice v : tts.getVoices()) {
+                                    if (v.getLocale() != null && v.getLocale().getLanguage().equalsIgnoreCase(targetLocale.getLanguage())) {
+                                        String vName = v.getName().toLowerCase();
+                                        // Erkek ses göstergeleri
+                                        if (vName.contains("male") || vName.contains("erkek") || vName.contains("#male") || 
+                                            vName.contains("-d-") || vName.contains("-b-") || vName.contains("local") || 
+                                            vName.contains("cem") || vName.contains("ahmet")) {
+                                            bestMaleVoice = v;
+                                            break;
+                                        }
+                                    }
+                                }
+                                if (bestMaleVoice != null) {
+                                    tts.setVoice(bestMaleVoice);
+                                }
+                            }
+                        } catch (Exception ignored) {}
 
                         Bundle params = new Bundle();
                         params.putFloat(TextToSpeech.Engine.KEY_PARAM_VOLUME, 1.0f);

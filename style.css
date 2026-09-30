@@ -191,9 +191,13 @@ body {
 /* 2. OKUMA EKRANI & ÇİFT SAYFA */
 .reading-screen {
   display: none;
-  min-height: 100vh;
+  height: 100vh;
+  height: 100dvh;
+  max-height: 100vh;
+  max-height: 100dvh;
   flex-direction: column;
   background-color: #1a241e;
+  overflow: hidden;
 }
 
 .reading-screen.active {
@@ -498,6 +502,15 @@ body {
   width: 100%;
   border-bottom: 1.5px solid rgba(184, 139, 42, 0.4);
   padding-bottom: 8px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.arabic-bismillah.active {
+  background-color: #fff0eb;
+  border: 2px solid #d32f2f;
+  box-shadow: 0 0 16px rgba(211, 47, 47, 0.35);
+  transform: scale(1.02);
 }
 
 .intro-box {
@@ -511,6 +524,13 @@ body {
   border-radius: 6px;
   border-left: 3px solid #b88b2a;
   text-align: center;
+  transition: all 0.3s ease;
+}
+
+.intro-box.active {
+  background-color: #ffeae6 !important;
+  border-left: 5px solid #d32f2f !important;
+  box-shadow: 0 2px 12px rgba(211, 47, 47, 0.25) !important;
 }
 
 .arabic-opening {
@@ -521,6 +541,15 @@ body {
   margin-bottom: 14px;
   direction: rtl;
   font-weight: bold;
+  border-radius: 6px;
+  padding: 4px 8px;
+  transition: all 0.3s ease;
+}
+
+.arabic-opening.active {
+  background-color: #fff0eb;
+  border: 1.5px solid #d32f2f;
+  box-shadow: 0 0 16px rgba(211, 47, 47, 0.35);
 }
 
 /* Arapça ve Türkçe Karşılıklı Eşleşen Liste Blokları */
@@ -532,13 +561,16 @@ body {
 
 /* Satır Satır Okuma & Tam Karşı Karşıya Eşit Hizalama */
 .trans-item, .arabic-item {
-  transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: all 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
   border-radius: 8px;
   min-height: 58px; /* Tam karşılıklı eşit satır yüksekliği */
   margin-bottom: 8px;
   display: flex;
   align-items: center;
   box-sizing: border-box;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .trans-item {
@@ -548,17 +580,26 @@ body {
 }
 
 .trans-item.active {
-  background-color: var(--highlight-bg);
-  border-left: 4px solid var(--highlight-border);
-  box-shadow: var(--highlight-shadow);
-  transform: none; /* Sarsıntıyı önlemek için transform kaldırıldı */
+  background-color: #ffeae6 !important;
+  border-left: 5px solid #d32f2f !important;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(211, 47, 47, 0.25) !important;
 }
 
-.trans-item .item-id {
-  font-weight: 700;
-  color: #b71c1c; /* Fotoğraftaki gibi kırmızı madde numaraları */
-  margin-right: 8px;
-  font-size: 1.1rem;
+.trans-item.active .item-id {
+  color: #b71c1c;
+  transform: scale(1.1);
+  display: inline-block;
+}
+
+.trans-item.active .item-reading {
+  color: #b71c1c !important;
+  font-weight: 800;
+}
+
+.trans-item.active .item-meaning {
+  color: #000000;
+  font-weight: 500;
 }
 
 /* Fotoğraftaki Alt Oval Sayfa Numarası Rozeti */
@@ -583,8 +624,11 @@ body {
 
 .trans-item .item-content {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px;
+  flex: 1;
 }
 
 .trans-item .item-reading {
@@ -592,15 +636,15 @@ body {
   font-style: italic;
   font-size: 1.15rem;
   font-weight: 700;
-  color: #3b3b3b;
-  line-height: 1.2;
+  color: #8b1d24; /* Esma ismi belirgin bordo/kırmızı */
+  line-height: 1.3;
+  white-space: nowrap;
 }
 
 .trans-item .item-meaning {
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   color: #242424;
-  margin-top: 2px;
-  line-height: 1.25;
+  line-height: 1.3;
 }
 
 .arabic-item {
@@ -644,11 +688,57 @@ body {
   text-shadow: 0 0 12px rgba(211, 47, 47, 0.4);
 }
 
+/* Satır başına 3 esma grid düzeni (Sağdan Sola) */
+.arabic-row {
+  display: flex;
+  flex-direction: row-reverse; /* Sağdan sola okuma düzeni */
+  justify-content: center;
+  align-items: stretch;
+  gap: 0;
+  border-bottom: 1px solid rgba(180, 140, 60, 0.15);
+}
+
+.arabic-row:last-child {
+  border-bottom: none;
+}
+
+.arabic-row .arabic-item {
+  flex: 1;
+  min-width: 0;
+  border-left: 1px solid rgba(180, 140, 60, 0.15); /* RTL'de sağ → sol */
+  padding: 6px 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.arabic-row .arabic-item:first-child {
+  border-left: none;
+}
+
+.arabic-row .arabic-text {
+  font-size: 1.25rem; /* Küçültüldü: sığması için */
+}
+
+.arabic-row .arabic-star {
+  font-size: 0.7rem;
+}
+
+
+
 .refrain-box {
   margin-top: 18px;
   padding: 12px 16px;
   border-radius: 8px;
   border: 1px dashed var(--accent-gold);
+  transition: all 0.3s ease;
+}
+
+.refrain-box.active {
+  border: 2px solid #d32f2f !important;
+  background-color: #ffeae6 !important;
+  box-shadow: 0 0 16px rgba(211, 47, 47, 0.35) !important;
 }
 
 .refrain-tr {
@@ -1028,15 +1118,74 @@ body {
 @media (max-width: 850px) {
   .mobile-view-tabs {
     display: flex;
+    gap: 2px;
+    padding: 2px;
+    flex-shrink: 0;
+  }
+
+  .mobile-view-tabs .tab-btn {
+    padding: 3px 5px;
+    font-size: 0.65rem;
+    cursor: pointer;
+    touch-action: manipulation;
   }
 
   .app-header {
-    height: 46px;
-    padding: 0 6px;
+    height: auto;
+    min-height: 44px;
+    /* Android bildirim çubuğu (saat, pil) altına inmesi için safe-area-inset-top */
+    padding-top: max(env(safe-area-inset-top, 0px), 6px);
+    padding-bottom: 6px;
+    padding-left: max(env(safe-area-inset-left, 0px), 8px);
+    padding-right: max(env(safe-area-inset-right, 0px), 8px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+    z-index: 1000;
   }
 
   .header-left {
-    gap: 6px;
+    gap: 4px;
+    flex-shrink: 1;
+    min-width: 0;
+  }
+
+  .risale-title-group .bab-header-title {
+    font-size: 0.76rem;
+    white-space: nowrap;
+  }
+
+  .risale-sub {
+    font-size: 0.55rem;
+    white-space: nowrap;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+  }
+
+  .audio-toggle-btn {
+    padding: 4px 7px;
+    font-size: 0.70rem;
+    gap: 3px;
+    border-radius: 14px;
+    cursor: pointer;
+    touch-action: manipulation;
+    white-space: nowrap;
+  }
+
+  .audio-toggle-btn .audio-icon {
+    font-size: 0.70rem;
+  }
+
+  .page-badge-box {
+    padding: 2px 4px;
+    font-size: 0.62rem;
+    white-space: nowrap;
   }
 
   .header-center {
@@ -1044,20 +1193,25 @@ body {
   }
 
   .book-container {
-    padding: 1px;
+    padding: 2px 2px 8px 2px;
     width: 100%;
     max-width: 100vw;
+    flex: 1;
+    height: auto;
+    max-height: none;
     box-sizing: border-box;
     overflow-x: hidden;
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    display: block;
   }
 
   .book-spread {
     flex-direction: column;
     min-height: auto;
-    width: 99%;
-    max-width: 400px;
-    border-width: 1.5px;
+    width: 100%;
+    max-width: 440px;
+    border-width: 1px;
     border-radius: 4px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.3);
     margin: 0 auto;
@@ -1069,7 +1223,7 @@ body {
   }
 
   .page {
-    padding: 1px 1px;
+    padding: 0;
     width: 100%;
     box-sizing: border-box;
   }
@@ -1117,18 +1271,35 @@ body {
   }
 
   .trans-item, .arabic-item {
-    min-height: 32px;
+    min-height: 28px;
     margin-bottom: 3px;
-    padding: 2px 5px;
+    padding: 3px 6px;
+  }
+
+  .trans-item .item-content {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 4px 6px;
   }
 
   .trans-item .item-reading {
-    font-size: 0.82rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #8b1d24;
+    white-space: nowrap;
+  }
+
+  .trans-item .item-reading::after {
+    content: ":";
+    margin-left: 2px;
   }
 
   .trans-item .item-meaning {
-    font-size: 0.72rem;
-    line-height: 1.12;
+    font-size: 0.78rem;
+    line-height: 1.25;
+    color: #242424;
   }
 
   .arabic-text {
@@ -1306,3 +1477,274 @@ body {
   accent-color: var(--accent-gold);
   cursor: pointer;
 }
+
+/* Temiz Okuma Modu - Alt Gezinme Barı (Kompakt & Sade) */
+.clean-nav-bar {
+  /* Telefon alt navigasyon tuşlarıyla üst üste binmemesi için safe-area-inset-bottom */
+  padding-top: 4px;
+  padding-left: max(env(safe-area-inset-left, 0px), 10px);
+  padding-right: max(env(safe-area-inset-right, 0px), 10px);
+  padding-bottom: max(env(safe-area-inset-bottom, 0px), 6px);
+  background: linear-gradient(180deg, #180304 0%, #0d0102 100%);
+  border-top: 1.5px solid var(--accent-gold);
+  flex-shrink: 0;
+  z-index: 100;
+}
+
+.clean-nav-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  max-width: 440px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.nav-large-btn {
+  flex: 1;
+  padding: 5px 10px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.3px;
+  background: linear-gradient(135deg, rgba(212, 167, 66, 0.18) 0%, rgba(138, 20, 20, 0.35) 100%);
+  border: 1.2px solid var(--accent-gold);
+  color: #fff9e6;
+  border-radius: 18px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: all 0.2s ease;
+  touch-action: manipulation;
+}
+
+.nav-large-btn span {
+  font-size: 1rem;
+  color: var(--accent-gold);
+}
+
+.nav-large-btn:active:not(:disabled) {
+  transform: scale(0.96);
+  background: linear-gradient(135deg, rgba(212, 167, 66, 0.35) 0%, rgba(138, 20, 20, 0.6) 100%);
+}
+
+.nav-large-btn:disabled {
+  opacity: 0.35;
+  border-color: rgba(197, 160, 89, 0.3);
+  color: #888888;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Orijinal Ses Oynatma Butonu (Üst Bar) */
+.audio-toggle-btn {
+  background: linear-gradient(135deg, rgba(212, 167, 66, 0.25) 0%, rgba(138, 20, 20, 0.5) 100%);
+  border: 1.5px solid var(--accent-gold);
+  color: #fff8e7;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.audio-toggle-btn:active {
+  transform: scale(0.95);
+}
+
+.audio-toggle-btn.playing {
+  background: linear-gradient(135deg, #b71c1c 0%, #d32f2f 100%);
+  border-color: #ffd54f;
+  color: #ffffff;
+  animation: pulseAudio 1.5s infinite;
+}
+
+@keyframes pulseAudio {
+  0% { box-shadow: 0 0 0 0 rgba(211, 47, 47, 0.7); }
+  70% { box-shadow: 0 0 0 8px rgba(211, 47, 47, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(211, 47, 47, 0); }
+}
+
+.audio-icon {
+  font-size: 0.8rem;
+  color: var(--accent-gold);
+}
+
+.audio-toggle-btn.playing .audio-icon {
+  color: #ffffff;
+}
+
+/* ============================================================
+   AYARLAR BUTONU (⚙)
+   ============================================================ */
+.settings-btn {
+  background: rgba(212, 175, 55, 0.15);
+  border: 1.5px solid var(--accent-gold);
+  color: var(--accent-gold);
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  line-height: 1;
+}
+.settings-btn:active { transform: scale(0.9); }
+
+/* ============================================================
+   AYARLAR PANELİ
+   ============================================================ */
+.settings-panel {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(10, 2, 4, 0.75);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  z-index: 9999;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  transition: opacity 0.25s ease;
+}
+.settings-panel.hidden {
+  display: none;
+}
+.settings-panel-inner {
+  background: linear-gradient(180deg, #2a0a10 0%, #1a0508 100%);
+  border: 1.5px solid rgba(212, 175, 55, 0.4);
+  border-bottom: none;
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  max-width: 520px;
+  padding: 20px 20px 32px;
+  box-shadow: 0 -8px 32px rgba(0,0,0,0.6);
+}
+.settings-close-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.settings-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  color: var(--accent-gold);
+  letter-spacing: 1px;
+}
+.settings-close-btn {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  color: #ccc;
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+}
+
+.settings-section {
+  margin-bottom: 22px;
+}
+.settings-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  color: rgba(212,175,55,0.75);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+/* ============================================================
+   SESLENDİRME BUTONLARI
+   ============================================================ */
+.narrator-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.narrator-btn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: rgba(255,255,255,0.04);
+  border: 1.5px solid rgba(212,175,55,0.2);
+  border-radius: 12px;
+  padding: 12px 16px;
+  cursor: pointer;
+  color: #fff;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+.narrator-btn:active { transform: scale(0.97); }
+.narrator-btn.active {
+  border-color: var(--accent-gold);
+  background: rgba(212,175,55,0.12);
+  box-shadow: 0 0 12px rgba(212,175,55,0.2);
+}
+.narrator-icon {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+}
+.narrator-name {
+  font-family: 'Cinzel', serif;
+  font-size: 0.95rem;
+  color: #fff8e7;
+  font-weight: 600;
+}
+.narrator-sub {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.5);
+  margin-top: 2px;
+}
+
+/* ============================================================
+   HAT (YAZI TİPİ) SEÇİMİ
+   ============================================================ */
+.hat-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.hat-btn {
+  background: rgba(255,255,255,0.04);
+  border: 1.5px solid rgba(212,175,55,0.2);
+  border-radius: 10px;
+  padding: 10px 8px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.2s ease;
+}
+.hat-btn:active { transform: scale(0.95); }
+.hat-btn.active {
+  border-color: var(--accent-gold);
+  background: rgba(212,175,55,0.12);
+}
+.hat-preview {
+  font-size: 1.4rem;
+  color: #2a1a00;
+  background: #faf5e8;
+  border-radius: 6px;
+  padding: 4px 10px;
+  direction: rtl;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+.hat-name {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.6);
+}
+

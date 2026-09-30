@@ -1,20 +1,3 @@
-﻿
-# Yoksayilacak buyuk dosya ve klasorler
-node_modules/
-.expo/
-build/
-dist/
-ios/Pods/
-.gradle/
-.cxx/
-.transforms/
-
-*.aab
-__pycache__/
-cmdline-tools/
-.jdk/
-jdk/
-.dart_tool/
 
 # Yoksayilacak buyuk dosya ve klasorler
 node_modules/
@@ -32,4 +15,15 @@ cmdline-tools/
 .jdk/
 jdk/
 .dart_tool/
+
+# Build logları ve geçici analiz dosyaları
+build_log*.txt
+analyze_audio.js
+check_start.js
+download_ishak.js
+find_all_words.js
+find_pauses.js
+find_words.js
+inspect_yt.js
+playlist.json
 
