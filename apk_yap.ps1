@@ -76,19 +76,19 @@ if ($LASTEXITCODE -eq 0) {
         Write-Host "========================================================
 " -ForegroundColor Green
 
-        # WhatsApp ve İndirme Linki Oluşturma
-        Write-Host "[*] APK indirme linki olusturuluyor ve WhatsApp'a aktariliyor..." -ForegroundColor Cyan
+        # WhatsApp ve İndirme Linki Oluşturma (Reklamsız Doğrudan İndirme)
+        Write-Host "[*] Reklamsiz dogrudan APK indirme linki olusturuluyor..." -ForegroundColor Cyan
         try {
-            $resp = curl.exe -s -F "file=@$targetApk" https://tmpfiles.org/api/v1/upload
-            $json = $resp | ConvertFrom-Json
-            if ($json -and $json.data -and $json.data.url) {
-                $dlUrl = $json.data.url -replace "tmpfiles.org/", "tmpfiles.org/dl/"
-                $msg = [System.Uri]::EscapeDataString("Cevşen-ül Kebir APK Hazır! Aşağıdaki bağlantıdan doğrudan indirebilirsiniz:`n`n$dlUrl")
-                $waUrl = "https://api.whatsapp.com/send/?phone=905072502500&text=$msg&type=phone_number&app_absent=0"
-                Write-Host "İndirme Linki: $dlUrl" -ForegroundColor Yellow
-                Write-Host "WhatsApp Penceresi Aciliyor..." -ForegroundColor Green
-                Start-Process $waUrl
+            $catboxUrl = (curl.exe -s -F "reqtype=fileupload" -F "time=72h" -F "fileToUpload=@$targetApk" https://litterbox.catbox.moe/resources/internals/api.php).Trim()
+            $dlUrl = $catboxUrl
+            if (-not $dlUrl -or -not ($dlUrl -match "http")) {
+                $dlUrl = "https://github.com/nihatyazgan1962/CevsenulKebir/raw/main/CevsenulKebir.apk"
             }
+            $msg = [System.Uri]::EscapeDataString("Cevşen-ül Kebir APK Hazır! Reklamsız doğrudan indirme bağlantısı:`n`n$dlUrl")
+            $waUrl = "https://api.whatsapp.com/send/?phone=905072502500&text=$msg&type=phone_number&app_absent=0"
+            Write-Host "Doğrudan İndirme Linki: $dlUrl" -ForegroundColor Yellow
+            Write-Host "WhatsApp Penceresi Açılıyor..." -ForegroundColor Green
+            Start-Process $waUrl
         } catch {
             Write-Host "Link olusturulamadi: $_" -ForegroundColor DarkGray
         }

@@ -3,9 +3,11 @@
 ## APK Derleme Sonrası WhatsApp Bildirimi ve Dağıtımı Kuralı
 Her APK derlemesi tamamlandığında veya yeni bir APK oluşturulduğunda **HER ZAMAN** aşağıdaki adımlar otomatik olarak uygulanmalıdır:
 
-1. **İndirme Linki Oluşturma:**
-   - Derlenen `CevsenulKebir.apk` dosyası `tmpfiles.org` (veya benzeri güvenilir doğrudan indirme servisine) yüklenmeli ve doğrudan indirme linki (`/dl/` uzantılı) elde edilmelidir.
-   - Örnek komut: `curl.exe -F "file=@CevsenulKebir.apk" https://tmpfiles.org/api/v1/upload`
+1. **Reklamsız Doğrudan İndirme Linki Oluşturma:**
+   - Derlenen `CevsenulKebir.apk` dosyası reklamsız ve doğrudan indirme sağlayan bir servise yüklenmelidir:
+     - Öncelikli: `litterbox.catbox.moe` (`curl.exe -F "reqtype=fileupload" -F "time=72h" -F "fileToUpload=@<apk>" https://litterbox.catbox.moe/resources/internals/api.php`)
+     - Veya projenin GitHub deposundaki doğrudan indirme bağlantısı: `https://github.com/<user>/<repo>/raw/main/<apk>`
+   - Kesinlikle reklam veya ara sayfa gösteren (tmpfiles.org vb.) servisler KULLANILMAMALIDIR.
 
 2. **WhatsApp Bağlantısı Hazırlama ve Tarayıcıda Açma:**
    - Kullanıcının WhatsApp numarası: `905072502500`
