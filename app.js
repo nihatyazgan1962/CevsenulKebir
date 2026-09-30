@@ -27,8 +27,8 @@ const cevsanData = [
     introTr: "Ey mülkün yegâne mâliki ve izzet sahibi Rabbim! Her türlü noksanlıktan münezzeh kemâl sıfatlarınla Senden emân diliyorum;",
     bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
     arabicTitle: "اَلْبَابُ الثَّانِي",
-    openingArabic: "يَا سَيِّدَ السَّادَاتِ",
-    openingTr: "Ey efendilerin Efendisi olan Allah'ım:",
+    openingArabic: "",
+    openingTr: "",
     items: [
       { id: 1, arabic: "يَا سَيِّدَ السَّادَاتِ", reading: "Yâ Seyyide's-sâdât", meaning: "Ey efendilerin Efendisi ve bütün seyyidlerin Rabbi" },
       { id: 2, arabic: "يَا مُجِيبَ الدَّعَوَاتِ", reading: "Yâ Mûcîbe'd-da'avât", meaning: "Ey bütün içten dualara icabet edip kabul buyuran" },
@@ -41,8 +41,8 @@ const cevsanData = [
       { id: 9, arabic: "يَا عَالِمَ الْخَفِيَّاتِ", reading: "Yâ Âlime'l-hafiyyât", meaning: "Ey kalplerin en gizli sırlarını eksiksiz bilen" },
       { id: 10, arabic: "يَا دَافِعَ الْبَلِيَّاتِ", reading: "Yâ Dâfia'l-beliyyât", meaning: "Ey her türlü belâ ve musibeti defeden" }
     ],
-    "refrainArabic": "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
-    "refrainTr": "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
+    refrainArabic: "سُبْحَانَكَ يَا لَٓا اِلٰهَ اِلَّٓا اَنْتَ اَلْاَمَانَ اَلْاَمَانَ خَلِّصْنَا مِنَ النَّارِ",
+    refrainTr: "Bütün kusurlardan münezzehsin, Senden başka ilâh yoktur! Bize emân ver, emân ver, bizi Cehennem ateşinden kurtar!"
   },
   {
     babNumber: 3,
@@ -2278,7 +2278,18 @@ function renderBab(index, direction = 'next', sameAudioFile = false) {
   if (rightBabBadge) rightBabBadge.textContent = `#${bab.babNumber}`;
   if (introText) introText.textContent = bab.introTr;
   if (refrainTrText) refrainTrText.textContent = bab.refrainTr;
-  if (arabicOpeningText) arabicOpeningText.textContent = bab.openingArabic;
+  
+  const hasSeparateOpening = bab.openingArabic && 
+                             bab.openingArabic.trim() !== "" && 
+                             (!bab.items[0] || bab.openingArabic.trim() !== bab.items[0].arabic.trim());
+  if (arabicOpeningText) {
+    if (hasSeparateOpening) {
+      arabicOpeningText.textContent = bab.openingArabic;
+      arabicOpeningText.style.display = "block";
+    } else {
+      arabicOpeningText.style.display = "none";
+    }
+  }
   if (refrainArText) refrainArText.textContent = bab.refrainArabic;
 
   const pageCounterBadge = document.getElementById("pageCounterBadge");
@@ -2607,6 +2618,49 @@ function getBabAudioInfo(babIndex) {
   };
 }
 
+// Özel hassas senkronize edilen bablar
+const BAB_CUSTOM_TIMINGS = {
+  // 1. Bab: Besmele(0.5s) + Giriş("Allâhumme inni...") + 10 Esma (15s..) + Nakarat (27.2s)
+  0: {
+    items: [
+      { time: 500,   target: 'bismillah' },
+      { time: 8500,  target: 'opening' },
+      { time: 15000, target: 1 },
+      { time: 16200, target: 2 },
+      { time: 17400, target: 3 },
+      { time: 18600, target: 4 },
+      { time: 19800, target: 5 },
+      { time: 21000, target: 6 },
+      { time: 22200, target: 7 },
+      { time: 23400, target: 8 },
+      { time: 24600, target: 9 },
+      { time: 25800, target: 10 },
+      { time: 27200, target: 'refrain' },
+      { time: 36000, target: null }
+    ],
+    flipTime: 37500
+  },
+  // 2. Bab: Giriş cümlesi yok, doğrudan 1. Esma ile başlar (Ses: 38.2s - 72.0s)
+  1: {
+    items: [
+      { time: 200,   target: 1 },        // Yâ Seyyide's-sâdât (38.2s)
+      { time: 2300,  target: 2 },        // Yâ Mûcîbe'd-da'avât (40.3s)
+      { time: 4300,  target: 3 },        // Yâ Râfia'd-deracât (42.3s)
+      { time: 6300,  target: 4 },        // Yâ Veliyye'l-hasenât (44.3s)
+      { time: 8300,  target: 5 },        // Yâ Gâfire'l-hatî'ât (46.3s)
+      { time: 10300, target: 6 },        // Yâ Mu'tiye'l-mes'elât (48.3s)
+      { time: 12800, target: 7 },        // Yâ Kâbile't-tevbât (50.8s)
+      { time: 14800, target: 8 },        // Yâ Sâmia'l-asvât (52.8s)
+      { time: 16800, target: 9 },        // Yâ Âlime'l-hafiyyât (54.8s)
+      { time: 19300, target: 10 },       // Yâ Dâfia'l-beliyyât (57.3s)
+      { time: 22500, target: null },     // Esmalar bitti, nefes/duraklama
+      { time: 25500, target: 'refrain' },// Nakarat: Sübhâneke... (63.5s - 71.8s)
+      { time: 33500, target: null }      // Nakarat bitti
+    ],
+    flipTime: 34000                     // 72.0s: Sonraki baba geç
+  }
+};
+
 function startHighlightTracker() {
   stopHighlightTracker();
   
@@ -2616,46 +2670,51 @@ function startHighlightTracker() {
   }
 
   const { babSuresi } = getBabAudioInfo(currentBabIndex);
-  const isFirstBab = (currentBabIndex === 0);
   const schedule = [];
 
-  if (isFirstBab) {
-    // 1. Bab: Besmele(0.5s) + Giriş("Allahümme inni...") + 10 Esma + Nakarat
-    schedule.push({ time: 500,   action: () => highlightItem('bismillah') });
-    schedule.push({ time: 8500,  action: () => highlightItem('opening') });
-
-    const esma1T = 15000;
-    const esmaStep = 1200;
-    for (let i = 0; i < 10; i++) {
-      const id = i + 1;
-      schedule.push({ time: esma1T + (i * esmaStep), action: () => highlightItem(id) });
-    }
-
-    schedule.push({ time: 27200, action: () => highlightItem('refrain') });
-    schedule.push({ time: 36000, action: () => highlightItem(null) });
-    schedule.push({ time: 37500, action: () => autoFlipToNextBab() });
+  // Özel hassas zamanlama haritası varsa onu kullan
+  if (BAB_CUSTOM_TIMINGS[currentBabIndex]) {
+    const custom = BAB_CUSTOM_TIMINGS[currentBabIndex];
+    custom.items.forEach(it => {
+      schedule.push({ time: it.time, action: () => highlightItem(it.target) });
+    });
+    schedule.push({ time: custom.flipTime, action: () => autoFlipToNextBab() });
   } else {
-    // Bab 2 ve sonrası: Besmele yok! Doğrudan giriş duası başlar
-    schedule.push({ time: 400, action: () => highlightItem('opening') });
-
-    const esma1T = 3200; // 3.2 saniyede 1. Esma başlar
-    const esmaStep = 1250; // Esma okuma aralığı 1.25s
+    // Genel Bablar İçin Dinamik Akıllı Zamanlama
     const bab = cevsanData[currentBabIndex];
+    const hasSeparateOpening = bab && bab.openingArabic && 
+                               bab.openingArabic.trim() !== "" && 
+                               (!bab.items[0] || bab.openingArabic.trim() !== bab.items[0].arabic.trim());
     const itemCount = bab ? bab.items.length : 10;
+    const esmaStep = 2100; // Ortalama esma süresi 2.1 saniye
 
-    for (let i = 0; i < itemCount; i++) {
-      const id = i + 1;
-      schedule.push({ time: esma1T + (i * esmaStep), action: () => highlightItem(id) });
+    if (hasSeparateOpening) {
+      schedule.push({ time: 400, action: () => highlightItem('opening') });
+      const esma1T = 3600;
+      for (let i = 0; i < itemCount; i++) {
+        const id = i + 1;
+        schedule.push({ time: esma1T + (i * esmaStep), action: () => highlightItem(id) });
+      }
+      const esmaEndT = esma1T + (itemCount * esmaStep);
+      schedule.push({ time: esmaEndT, action: () => highlightItem(null) });
+      const refrainT = esmaEndT + 2500;
+      schedule.push({ time: refrainT, action: () => highlightItem('refrain') });
+      schedule.push({ time: Math.round(babSuresi * 1000) - 1000, action: () => highlightItem(null) });
+      schedule.push({ time: Math.round(babSuresi * 1000), action: () => autoFlipToNextBab() });
+    } else {
+      // Giriş cümlesi yoksa doğrudan 1. Esma başlar
+      const esma1T = 300;
+      for (let i = 0; i < itemCount; i++) {
+        const id = i + 1;
+        schedule.push({ time: esma1T + (i * esmaStep), action: () => highlightItem(id) });
+      }
+      const esmaEndT = esma1T + (itemCount * esmaStep);
+      schedule.push({ time: esmaEndT, action: () => highlightItem(null) });
+      const refrainT = esmaEndT + 2500;
+      schedule.push({ time: refrainT, action: () => highlightItem('refrain') });
+      schedule.push({ time: Math.round(babSuresi * 1000) - 1000, action: () => highlightItem(null) });
+      schedule.push({ time: Math.round(babSuresi * 1000), action: () => autoFlipToNextBab() });
     }
-
-    const refrainT = esma1T + (itemCount * esmaStep) + 800; // ~16.5s
-    const totalMs = Math.round(babSuresi * 1000);
-    const endHighlightT = Math.max(refrainT + 12000, totalMs - 2000);
-    const flipT = totalMs;
-
-    schedule.push({ time: refrainT, action: () => highlightItem('refrain') });
-    schedule.push({ time: endHighlightT, action: () => highlightItem(null) });
-    schedule.push({ time: flipT, action: () => autoFlipToNextBab() });
   }
 
   schedule.forEach(item => {
