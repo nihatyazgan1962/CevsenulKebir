@@ -49,8 +49,8 @@ const cevsanData = [
     introTr: "Ey kerem ve lütfu sonsuz olan Mevlâm! İzzet ve celâline sığınarak Sana yalvarıyorum;",
     bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
     arabicTitle: "اَلْبَابُ الثَّالِثُ",
-    openingArabic: "يَا خَيْرَ الْغَافِرِينَ",
-    openingTr: "Ey bağışlayanların en hayırlısı:",
+    openingArabic: "",
+    openingTr: "",
     items: [
       { id: 1, arabic: "يَا خَيْرَ الْغَافِرِينَ", reading: "Yâ Hayra'l-gâfirîn", meaning: "Ey bağışlayıcıların en hayırlısı" },
       { id: 2, arabic: "يَا خَيْرَ الْفَاتِحِينَ", reading: "Yâ Hayra'l-fâtihîn", meaning: "Ey hayır ve bereket kapılarını en güzel açan" },
@@ -71,8 +71,8 @@ const cevsanData = [
     introTr: "Ey izzet ve celâl sahibi Rabbim! Kudret ve azametine sığınarak Senden niyaz ediyorum;",
     bismillah: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
     arabicTitle: "اَلْبَابُ الرَّابِعُ",
-    openingArabic: "يَا مَنْ لَهُ الْعِزَّةُ وَالْجَمَالُ",
-    openingTr: "Ey mutlak izzet ve cemal sahibi olan Allah'ım:",
+    openingArabic: "",
+    openingTr: "",
     items: [
       { id: 1, arabic: "يَا مَنْ لَهُ الْعِزَّةُ وَالْجَمَالُ", reading: "Yâ Men lehu'l-izzetu ve'l-cemâl", meaning: "Ey gerçek izzet, yücelik ve cemal sahibi olan" },
       { id: 2, arabic: "يَا مَنْ لَهُ الْمُلْكُ وَالْجَلَالُ", reading: "Yâ Men lehu'l-mülkü ve'l-celâl", meaning: "Ey mülkün yegâne mâliki ve celâl sahibi olan" },
@@ -2482,12 +2482,12 @@ let highlightTimeouts = [];
 // dosya içi başlangıç saniyesi (offset) ve ortalama süresi (dur):
 const BAB_AUDIO_CONFIG = [
   // Bölüm 1 (327s) - Bab 1-9 (9 bab)
-  { bolum: 1, offset: 0,   dur: 37.5 },  // Bab 1 (Besmele + Uzun Giriş)
-  { bolum: 1, offset: 38,  dur: 34.0 },  // Bab 2
-  { bolum: 1, offset: 74,  dur: 32.0 },  // Bab 3
-  { bolum: 1, offset: 107, dur: 39.0 },  // Bab 4
-  { bolum: 1, offset: 148, dur: 45.0 },  // Bab 5
-  { bolum: 1, offset: 195, dur: 30.0 },  // Bab 6
+  { bolum: 1, offset: 0,     dur: 37.5 },  // Bab 1 (Besmele + Uzun Giriş)
+  { bolum: 1, offset: 38,    dur: 34.0 },  // Bab 2
+  { bolum: 1, offset: 74,    dur: 33.0 },  // Bab 3
+  { bolum: 1, offset: 107,   dur: 41.5 },  // Bab 4
+  { bolum: 1, offset: 148.5, dur: 46.5 },  // Bab 5
+  { bolum: 1, offset: 195,   dur: 30.0 },  // Bab 6
   { bolum: 1, offset: 226, dur: 34.0 },  // Bab 7
   { bolum: 1, offset: 261, dur: 34.0 },  // Bab 8
   { bolum: 1, offset: 296, dur: 31.0 },  // Bab 9
@@ -2658,6 +2658,64 @@ const BAB_CUSTOM_TIMINGS = {
       { time: 33500, target: null }      // Nakarat bitti
     ],
     flipTime: 34000                     // 72.0s: Sonraki baba geç
+  },
+  // 3. Bab: Doğrudan 1. Esma ile başlar (Ses: 74.0s - 107.0s)
+  2: {
+    items: [
+      { time: 200,   target: 1 },        // Yâ Hayra'l-gâfirîn (74.2s)
+      { time: 2400,  target: 2 },        // Yâ Hayra'l-fâtihîn (76.4s)
+      { time: 4600,  target: 3 },        // Yâ Hayra'n-nâsırîn (78.6s)
+      { time: 6600,  target: 4 },        // Yâ Hayra'l-hâkimîn (80.6s)
+      { time: 8800,  target: 5 },        // Yâ Hayra'r-râzikîn (82.8s)
+      { time: 11100, target: 6 },        // Yâ Hayra'l-vârisîn (85.1s)
+      { time: 13300, target: 7 },        // Yâ Hayra'l-hâmidîn (87.3s)
+      { time: 15300, target: 8 },        // Yâ Hayra'z-zâkirîn (89.3s)
+      { time: 17300, target: 9 },        // Yâ Hayra'l-münzilîn (91.3s)
+      { time: 19300, target: 10 },       // Yâ Hayra'l-muhsinîn (93.3s)
+      { time: 21800, target: null },     // Esmalar bitti (95.8s)
+      { time: 23250, target: 'refrain' },// Nakarat (97.25s - 105.25s)
+      { time: 31250, target: null }      // Nakarat bitti
+    ],
+    flipTime: 33000                     // 107.0s: Sonraki baba geç
+  },
+  // 4. Bab: Doğrudan 1. Esma ile başlar (Ses: 107.0s - 148.5s)
+  3: {
+    items: [
+      { time: 200,   target: 1 },        // Yâ Men lehu'l-izzetu ve'l-cemâl (107.2s)
+      { time: 3000,  target: 2 },        // Yâ Men lehu'l-mülkü ve'l-celâl (110.0s)
+      { time: 6000,  target: 3 },        // Yâ Men lehu'l-kudretu ve'l-kemâl (113.0s)
+      { time: 9000,  target: 4 },        // Yâ Men hüve'l-kebîru'l-müteâl (116.0s)
+      { time: 12000, target: 5 },        // Yâ Münşie's-sehâbi's-sikâl (119.0s)
+      { time: 15500, target: 6 },        // Yâ Men hüve şedîdü'l-mihâl (122.5s)
+      { time: 19100, target: 7 },        // Yâ Men hüve serîu'l-hisâb (126.2s)
+      { time: 21500, target: 8 },        // Yâ Men hüve şedîdü'l-ıkâb (128.5s)
+      { time: 25500, target: 9 },        // Yâ Men indehû husnü's-sevâb (132.5s)
+      { time: 28000, target: 10 },       // Yâ Men indehû ümmü'l-kitâb (135.0s)
+      { time: 30300, target: null },     // Esmalar bitti (137.3s)
+      { time: 31400, target: 'refrain' },// Nakarat (138.4s - 146.3s)
+      { time: 39300, target: null }      // Nakarat bitti
+    ],
+    flipTime: 41500                     // 148.5s: Sonraki baba geç
+  },
+  // 5. Bab: Giriş duası ile başlar (Ses: 148.5s - 195.0s)
+  4: {
+    items: [
+      { time: 200,   target: 'opening' },// Allâhumme innî es'elüke bi-ismike (148.7s)
+      { time: 3800,  target: 1 },        // Yâ Hannân (152.2s)
+      { time: 6000,  target: 2 },        // Yâ Mennân (154.0s)
+      { time: 8200,  target: 3 },        // Yâ Deyyân (156.0s)
+      { time: 10400, target: 4 },        // Yâ Gufrân (158.0s)
+      { time: 12800, target: 5 },        // Yâ Bürhân (160.5s)
+      { time: 15300, target: 6 },        // Yâ Sultân (163.0s)
+      { time: 17800, target: 7 },        // Yâ Sübhân (165.5s)
+      { time: 20300, target: 8 },        // Yâ Müsteân (168.0s)
+      { time: 22800, target: 9 },        // Yâ Ze'l-menni ve'l-beyân (170.5s)
+      { time: 25200, target: 10 },       // Yâ Ze'l-emân (173.0s)
+      { time: 27400, target: null },     // Esmalar bitti, nefes (175.0s)
+      { time: 30300, target: 'refrain' },// Nakarat: Sübhâneke... (178.2s - 193.0s)
+      { time: 44500, target: null }      // Nakarat bitti
+    ],
+    flipTime: 46500                     // 195.0s: Sonraki baba geç
   }
 };
 

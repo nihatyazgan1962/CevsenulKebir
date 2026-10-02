@@ -79,9 +79,10 @@ if ($LASTEXITCODE -eq 0) {
         # WhatsApp ve İndirme Linki Oluşturma (Reklamsız Doğrudan İndirme)
         Write-Host "[*] Reklamsiz dogrudan APK indirme linki olusturuluyor..." -ForegroundColor Cyan
         try {
-            $catboxUrl = (curl.exe -s -F "reqtype=fileupload" -F "time=72h" -F "fileToUpload=@$targetApk" https://litterbox.catbox.moe/resources/internals/api.php).Trim()
-            $dlUrl = $catboxUrl
-            if (-not $dlUrl -or -not ($dlUrl -match "http")) {
+            $catboxUrl = (curl.exe -k -s -F "reqtype=fileupload" -F "time=72h" -F "fileToUpload=@$targetApk" https://litterbox.catbox.moe/resources/internals/api.php).Trim()
+            if ($catboxUrl -match "^https?://[^\s]+\.apk$") {
+                $dlUrl = $catboxUrl
+            } else {
                 $dlUrl = "https://github.com/nihatyazgan1962/CevsenulKebir/raw/main/CevsenulKebir.apk"
             }
             $msg = [System.Uri]::EscapeDataString("Cevşen-ül Kebir APK Hazır! Reklamsız doğrudan indirme bağlantısı:`n`n$dlUrl")
